@@ -1,0 +1,32 @@
+# ============================================================
+# ARTILLERY BASELINE / LOAD TEST CONFIGURATION
+# 100 Virtual Concurrent Users running continuously for 1 Minute
+# ============================================================
+config:
+  target: "http://127.0.0.1:8000"
+  phases:
+    - duration: 10
+      arrivalRate: 10
+      name: "Ramp up phase (10 vUsers/sec)"
+    - duration: 60
+      arrivalRate: 100
+      name: "Baseline Sustained Load (100 Concurrent Virtual Users for 1 Minute)"
+  plugins:
+    expect: {}
+
+scenarios:
+  - name: "API & Web End-to-End Baseline Load Flow"
+    flow:
+      - get:
+          url: "/"
+          expect:
+            - statusCode: 200
+      - get:
+          url: "/api/"
+          expect:
+            - statusCode: 200
+            - statusCode: 404
+      - get:
+          url: "/login"
+          expect:
+            - statusCode: 200

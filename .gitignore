@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Test Logs (keep reports but not raw logs)
+selenium-tests/logs/*.log
+appium-tests/logs/*.log
+
+# Screenshots (too large for git)
+selenium-tests/screenshots/
+appium-tests/screenshots/
+
+# Raw result JSON (regenerated each run)
+selenium-tests/reports/raw-results.json
+appium-tests/reports/raw-results.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+*.sqlite3
+db.sqlite3
+
+# iOS Build Artifacts
+updatedpopc*/build/
+updatedpopc*/*.xcarchive
+updatedpopc*/*.ipa
+*.DS_Store
+DerivedData/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+Thumbs.db
+.DS_Store

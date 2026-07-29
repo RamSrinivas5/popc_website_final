@@ -1,0 +1,40 @@
+name: 🌐 Publish Unified Test Reports to GitHub Pages
+
+on:
+  workflow_run:
+    workflows: ["🧪 Selenium E2E Tests — POPC Web Application", "📱 Appium iOS E2E Tests — POPC Mobile Application"]
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy-reports:
+    name: '🌐 Deploy All Test Reports to GitHub Pages'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: '🛎️ Checkout Repository'
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+        continue-on-error: true
+
+      - name: '📁 Prepare Directories'
+        run: |
+          mkdir -p reports/latest
+          mkdir -p reports/history/build-${{ github.run_number }}
+
+      - name: '🚀 Publish to GitHub Pages'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports
+          keep_files: true
+          commit_message: '📊 Update Unified Test Dashboard — Build #${{ github.run_number }}'
+        continue-on-error: true

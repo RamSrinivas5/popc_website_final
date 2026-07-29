@@ -1,0 +1,40 @@
+{
+  "name": "popc-selenium-e2e",
+  "version": "1.0.0",
+  "description": "Enterprise Selenium E2E Test Framework for POPC Web Application",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node runners/testRunner.js",
+    "test:auth": "node runners/testRunner.js --suite auth",
+    "test:patients": "node runners/testRunner.js --suite patients",
+    "test:surveys": "node runners/testRunner.js --suite surveys",
+    "test:dashboard": "node runners/testRunner.js --suite dashboard",
+    "test:regression": "node runners/testRunner.js --suite regression",
+    "report:excel": "node utils/excelReporter.js",
+    "report:html": "node utils/htmlReporter.js",
+    "report:all": "node utils/generateReports.js",
+    "clean": "node -e \"require('fs').rmSync('reports', {recursive:true, force:true}); require('fs').rmSync('screenshots', {recursive:true, force:true});\""
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.27.0",
+    "chromedriver": "^131.0.1",
+    "geckodriver": "^4.5.1",
+    "exceljs": "^4.4.0",
+    "mocha": "^10.8.2",
+    "chai": "^5.1.2",
+    "dotenv": "^16.4.5",
+    "winston": "^3.17.0",
+    "uuid": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "moment": "^2.30.1",
+    "axios": "^1.7.9"
+  },
+  "devDependencies": {
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
