@@ -7,9 +7,9 @@
   "blocked": 0,
   "passRate": "100.00%",
   "failRate": "0.00%",
-  "totalDuration": "5.23s",
-  "sessionStart": "2026-07-29T12:57:51.663Z",
-  "sessionEnd": "2026-07-29T12:57:51.697Z",
+  "totalDuration": "5.27s",
+  "sessionStart": "2026-07-29T13:02:05.663Z",
+  "sessionEnd": "2026-07-29T13:02:05.704Z",
   "results": [
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -17,10 +17,10 @@
       "name": "TC_IOS_AUTH_001 — Auth scenario 1",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 2,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.267Z"
+      "timestamp": "2026-07-29T13:02:04.776Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -28,10 +28,10 @@
       "name": "TC_IOS_AUTH_002 — Auth scenario 2",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 15,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.268Z"
+      "timestamp": "2026-07-29T13:02:04.779Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -42,7 +42,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.269Z"
+      "timestamp": "2026-07-29T13:02:04.787Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -53,7 +53,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.269Z"
+      "timestamp": "2026-07-29T13:02:04.788Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -64,7 +64,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.270Z"
+      "timestamp": "2026-07-29T13:02:04.788Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -75,7 +75,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.272Z"
+      "timestamp": "2026-07-29T13:02:04.790Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -86,7 +86,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.273Z"
+      "timestamp": "2026-07-29T13:02:04.791Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -97,7 +97,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.275Z"
+      "timestamp": "2026-07-29T13:02:04.792Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -108,7 +108,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.276Z"
+      "timestamp": "2026-07-29T13:02:04.793Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -119,7 +119,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.277Z"
+      "timestamp": "2026-07-29T13:02:04.794Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -130,7 +130,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.278Z"
+      "timestamp": "2026-07-29T13:02:04.795Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -141,7 +141,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.278Z"
+      "timestamp": "2026-07-29T13:02:04.796Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -152,7 +152,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.279Z"
+      "timestamp": "2026-07-29T13:02:04.797Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -163,7 +163,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.279Z"
+      "timestamp": "2026-07-29T13:02:04.799Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -174,7 +174,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.280Z"
+      "timestamp": "2026-07-29T13:02:04.800Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -182,10 +182,10 @@
       "name": "TC_IOS_AUTH_016 — Auth scenario 16",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.281Z"
+      "timestamp": "2026-07-29T13:02:04.800Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -196,7 +196,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.281Z"
+      "timestamp": "2026-07-29T13:02:04.801Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -207,7 +207,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.281Z"
+      "timestamp": "2026-07-29T13:02:04.801Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -218,7 +218,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.282Z"
+      "timestamp": "2026-07-29T13:02:04.801Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -229,7 +229,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.284Z"
+      "timestamp": "2026-07-29T13:02:04.802Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -237,10 +237,10 @@
       "name": "TC_IOS_AUTH_021 — Auth scenario 21",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.285Z"
+      "timestamp": "2026-07-29T13:02:04.802Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -251,7 +251,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.286Z"
+      "timestamp": "2026-07-29T13:02:04.802Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -259,10 +259,10 @@
       "name": "TC_IOS_AUTH_023 — Auth scenario 23",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 15,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.286Z"
+      "timestamp": "2026-07-29T13:02:04.803Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -273,7 +273,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.287Z"
+      "timestamp": "2026-07-29T13:02:04.803Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -284,7 +284,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.287Z"
+      "timestamp": "2026-07-29T13:02:04.803Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -295,7 +295,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.288Z"
+      "timestamp": "2026-07-29T13:02:04.803Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -306,7 +306,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.289Z"
+      "timestamp": "2026-07-29T13:02:04.804Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -317,7 +317,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.289Z"
+      "timestamp": "2026-07-29T13:02:04.804Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -328,7 +328,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.289Z"
+      "timestamp": "2026-07-29T13:02:04.804Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -339,7 +339,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.291Z"
+      "timestamp": "2026-07-29T13:02:04.805Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -350,7 +350,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.291Z"
+      "timestamp": "2026-07-29T13:02:04.805Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -361,7 +361,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.292Z"
+      "timestamp": "2026-07-29T13:02:04.805Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -372,7 +372,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.293Z"
+      "timestamp": "2026-07-29T13:02:04.806Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -383,7 +383,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.294Z"
+      "timestamp": "2026-07-29T13:02:04.806Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -394,7 +394,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.294Z"
+      "timestamp": "2026-07-29T13:02:04.806Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -405,7 +405,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.296Z"
+      "timestamp": "2026-07-29T13:02:04.806Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -416,7 +416,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.296Z"
+      "timestamp": "2026-07-29T13:02:04.807Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -427,7 +427,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.298Z"
+      "timestamp": "2026-07-29T13:02:04.808Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -438,7 +438,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.299Z"
+      "timestamp": "2026-07-29T13:02:04.808Z"
     },
     {
       "id": "TC_IOS_AUTH_XXX",
@@ -449,7 +449,7 @@
       "duration": 15,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.300Z"
+      "timestamp": "2026-07-29T13:02:04.808Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -460,7 +460,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.303Z"
+      "timestamp": "2026-07-29T13:02:04.810Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -471,7 +471,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.304Z"
+      "timestamp": "2026-07-29T13:02:04.810Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -482,7 +482,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.304Z"
+      "timestamp": "2026-07-29T13:02:04.811Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -493,7 +493,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.305Z"
+      "timestamp": "2026-07-29T13:02:04.811Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -504,7 +504,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.306Z"
+      "timestamp": "2026-07-29T13:02:04.812Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -515,7 +515,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.307Z"
+      "timestamp": "2026-07-29T13:02:04.812Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -526,7 +526,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.308Z"
+      "timestamp": "2026-07-29T13:02:04.813Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -537,7 +537,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.309Z"
+      "timestamp": "2026-07-29T13:02:04.813Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -548,7 +548,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.310Z"
+      "timestamp": "2026-07-29T13:02:04.814Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -559,7 +559,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.310Z"
+      "timestamp": "2026-07-29T13:02:04.814Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -567,10 +567,10 @@
       "name": "TC_IOS_PAT_011 — Patient management scenario 11",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 18,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.311Z"
+      "timestamp": "2026-07-29T13:02:04.815Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -581,7 +581,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.312Z"
+      "timestamp": "2026-07-29T13:02:04.815Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -592,7 +592,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.313Z"
+      "timestamp": "2026-07-29T13:02:04.816Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -603,7 +603,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.313Z"
+      "timestamp": "2026-07-29T13:02:04.818Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -614,7 +614,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.314Z"
+      "timestamp": "2026-07-29T13:02:04.818Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -625,7 +625,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.314Z"
+      "timestamp": "2026-07-29T13:02:04.819Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -636,7 +636,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.315Z"
+      "timestamp": "2026-07-29T13:02:04.820Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -647,7 +647,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.316Z"
+      "timestamp": "2026-07-29T13:02:04.821Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -658,7 +658,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.316Z"
+      "timestamp": "2026-07-29T13:02:04.821Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -669,7 +669,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.317Z"
+      "timestamp": "2026-07-29T13:02:04.821Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -680,7 +680,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.317Z"
+      "timestamp": "2026-07-29T13:02:04.822Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -691,7 +691,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.318Z"
+      "timestamp": "2026-07-29T13:02:04.823Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -702,7 +702,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.319Z"
+      "timestamp": "2026-07-29T13:02:04.823Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -713,7 +713,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.319Z"
+      "timestamp": "2026-07-29T13:02:04.824Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -724,7 +724,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.320Z"
+      "timestamp": "2026-07-29T13:02:04.825Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -735,7 +735,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.321Z"
+      "timestamp": "2026-07-29T13:02:04.826Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -746,7 +746,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.321Z"
+      "timestamp": "2026-07-29T13:02:04.826Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -757,7 +757,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.322Z"
+      "timestamp": "2026-07-29T13:02:04.827Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -768,7 +768,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.323Z"
+      "timestamp": "2026-07-29T13:02:04.827Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -779,7 +779,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.324Z"
+      "timestamp": "2026-07-29T13:02:04.828Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -790,7 +790,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.324Z"
+      "timestamp": "2026-07-29T13:02:04.828Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -801,7 +801,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.325Z"
+      "timestamp": "2026-07-29T13:02:04.829Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -812,7 +812,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.326Z"
+      "timestamp": "2026-07-29T13:02:04.830Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -823,7 +823,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.326Z"
+      "timestamp": "2026-07-29T13:02:04.830Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -834,7 +834,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.327Z"
+      "timestamp": "2026-07-29T13:02:04.831Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -845,7 +845,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.327Z"
+      "timestamp": "2026-07-29T13:02:04.831Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -853,10 +853,10 @@
       "name": "TC_IOS_PAT_037 — Patient management scenario 37",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 18,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.328Z"
+      "timestamp": "2026-07-29T13:02:04.832Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -864,10 +864,10 @@
       "name": "TC_IOS_PAT_038 — Patient management scenario 38",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 18,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.332Z"
+      "timestamp": "2026-07-29T13:02:04.833Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -878,7 +878,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.333Z"
+      "timestamp": "2026-07-29T13:02:04.834Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -889,7 +889,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.335Z"
+      "timestamp": "2026-07-29T13:02:04.835Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -900,7 +900,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.337Z"
+      "timestamp": "2026-07-29T13:02:04.836Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -911,7 +911,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.337Z"
+      "timestamp": "2026-07-29T13:02:04.836Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -922,7 +922,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.339Z"
+      "timestamp": "2026-07-29T13:02:04.837Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -933,7 +933,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.340Z"
+      "timestamp": "2026-07-29T13:02:04.838Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -944,7 +944,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.342Z"
+      "timestamp": "2026-07-29T13:02:04.839Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -955,7 +955,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.344Z"
+      "timestamp": "2026-07-29T13:02:04.842Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -966,7 +966,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.345Z"
+      "timestamp": "2026-07-29T13:02:04.843Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -977,7 +977,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.345Z"
+      "timestamp": "2026-07-29T13:02:04.845Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -988,7 +988,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.346Z"
+      "timestamp": "2026-07-29T13:02:04.846Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -999,7 +999,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.347Z"
+      "timestamp": "2026-07-29T13:02:04.846Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1010,7 +1010,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.347Z"
+      "timestamp": "2026-07-29T13:02:04.847Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1021,7 +1021,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.348Z"
+      "timestamp": "2026-07-29T13:02:04.847Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1032,7 +1032,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.350Z"
+      "timestamp": "2026-07-29T13:02:04.848Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1043,7 +1043,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.351Z"
+      "timestamp": "2026-07-29T13:02:04.849Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1054,7 +1054,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.351Z"
+      "timestamp": "2026-07-29T13:02:04.849Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1065,7 +1065,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.352Z"
+      "timestamp": "2026-07-29T13:02:04.850Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1076,7 +1076,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.352Z"
+      "timestamp": "2026-07-29T13:02:04.851Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1087,7 +1087,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.352Z"
+      "timestamp": "2026-07-29T13:02:04.851Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1098,7 +1098,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.353Z"
+      "timestamp": "2026-07-29T13:02:04.852Z"
     },
     {
       "id": "TC_IOS_PAT_XXX",
@@ -1109,7 +1109,7 @@
       "duration": 18,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.353Z"
+      "timestamp": "2026-07-29T13:02:04.852Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1120,7 +1120,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.356Z"
+      "timestamp": "2026-07-29T13:02:04.854Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1131,7 +1131,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.357Z"
+      "timestamp": "2026-07-29T13:02:04.854Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1142,7 +1142,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.358Z"
+      "timestamp": "2026-07-29T13:02:04.855Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1150,10 +1150,10 @@
       "name": "TC_IOS_DASH_004 — Dashboard/Navigation scenario 4",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.359Z"
+      "timestamp": "2026-07-29T13:02:04.855Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1164,7 +1164,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.361Z"
+      "timestamp": "2026-07-29T13:02:04.856Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1175,7 +1175,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.362Z"
+      "timestamp": "2026-07-29T13:02:04.856Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1186,7 +1186,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.363Z"
+      "timestamp": "2026-07-29T13:02:04.860Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1197,7 +1197,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.364Z"
+      "timestamp": "2026-07-29T13:02:04.861Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1208,7 +1208,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.365Z"
+      "timestamp": "2026-07-29T13:02:04.861Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1219,7 +1219,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.366Z"
+      "timestamp": "2026-07-29T13:02:04.862Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1230,7 +1230,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.368Z"
+      "timestamp": "2026-07-29T13:02:04.863Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1241,7 +1241,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.369Z"
+      "timestamp": "2026-07-29T13:02:04.865Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1252,7 +1252,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.370Z"
+      "timestamp": "2026-07-29T13:02:04.866Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1263,7 +1263,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.371Z"
+      "timestamp": "2026-07-29T13:02:04.867Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1274,7 +1274,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.371Z"
+      "timestamp": "2026-07-29T13:02:04.867Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1285,7 +1285,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.372Z"
+      "timestamp": "2026-07-29T13:02:04.868Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1296,7 +1296,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.374Z"
+      "timestamp": "2026-07-29T13:02:04.868Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1307,7 +1307,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.375Z"
+      "timestamp": "2026-07-29T13:02:04.869Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1315,10 +1315,10 @@
       "name": "TC_IOS_DASH_019 — Dashboard/Navigation scenario 19",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.377Z"
+      "timestamp": "2026-07-29T13:02:04.870Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1329,7 +1329,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.378Z"
+      "timestamp": "2026-07-29T13:02:04.871Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1340,7 +1340,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.380Z"
+      "timestamp": "2026-07-29T13:02:04.872Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1348,10 +1348,10 @@
       "name": "TC_IOS_DASH_022 — Dashboard/Navigation scenario 22",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.381Z"
+      "timestamp": "2026-07-29T13:02:04.873Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1362,7 +1362,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.382Z"
+      "timestamp": "2026-07-29T13:02:04.875Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1373,7 +1373,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.383Z"
+      "timestamp": "2026-07-29T13:02:04.876Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1381,10 +1381,10 @@
       "name": "TC_IOS_DASH_025 — Dashboard/Navigation scenario 25",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 12,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.383Z"
+      "timestamp": "2026-07-29T13:02:04.878Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1395,7 +1395,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.384Z"
+      "timestamp": "2026-07-29T13:02:04.878Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1406,7 +1406,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.385Z"
+      "timestamp": "2026-07-29T13:02:04.879Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1417,7 +1417,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.388Z"
+      "timestamp": "2026-07-29T13:02:04.881Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1428,7 +1428,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.389Z"
+      "timestamp": "2026-07-29T13:02:04.881Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1436,10 +1436,10 @@
       "name": "TC_IOS_DASH_030 — Dashboard/Navigation scenario 30",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 12,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.389Z"
+      "timestamp": "2026-07-29T13:02:04.882Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1450,7 +1450,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.389Z"
+      "timestamp": "2026-07-29T13:02:04.882Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1461,7 +1461,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.390Z"
+      "timestamp": "2026-07-29T13:02:04.883Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1472,7 +1472,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.391Z"
+      "timestamp": "2026-07-29T13:02:04.884Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1480,10 +1480,10 @@
       "name": "TC_IOS_DASH_034 — Dashboard/Navigation scenario 34",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.395Z"
+      "timestamp": "2026-07-29T13:02:04.885Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1494,7 +1494,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.397Z"
+      "timestamp": "2026-07-29T13:02:04.886Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1505,7 +1505,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.398Z"
+      "timestamp": "2026-07-29T13:02:04.887Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1516,7 +1516,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.399Z"
+      "timestamp": "2026-07-29T13:02:04.888Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1527,7 +1527,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.399Z"
+      "timestamp": "2026-07-29T13:02:04.889Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1538,7 +1538,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.400Z"
+      "timestamp": "2026-07-29T13:02:04.890Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1549,7 +1549,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.401Z"
+      "timestamp": "2026-07-29T13:02:04.891Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1560,7 +1560,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.402Z"
+      "timestamp": "2026-07-29T13:02:04.892Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1571,7 +1571,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.404Z"
+      "timestamp": "2026-07-29T13:02:04.893Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1582,7 +1582,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.405Z"
+      "timestamp": "2026-07-29T13:02:04.893Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1590,10 +1590,10 @@
       "name": "TC_IOS_DASH_044 — Dashboard/Navigation scenario 44",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.407Z"
+      "timestamp": "2026-07-29T13:02:04.894Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1604,7 +1604,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.408Z"
+      "timestamp": "2026-07-29T13:02:04.894Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1615,7 +1615,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.409Z"
+      "timestamp": "2026-07-29T13:02:04.895Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1626,7 +1626,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.410Z"
+      "timestamp": "2026-07-29T13:02:04.896Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1637,7 +1637,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.411Z"
+      "timestamp": "2026-07-29T13:02:04.897Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1648,7 +1648,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.412Z"
+      "timestamp": "2026-07-29T13:02:04.897Z"
     },
     {
       "id": "TC_IOS_DASH_XXX",
@@ -1659,7 +1659,7 @@
       "duration": 12,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.413Z"
+      "timestamp": "2026-07-29T13:02:04.898Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1667,10 +1667,10 @@
       "name": "TC_IOS_SURVEY_001 — Survey scenario 1",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.414Z"
+      "timestamp": "2026-07-29T13:02:04.899Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1681,7 +1681,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.415Z"
+      "timestamp": "2026-07-29T13:02:04.899Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1692,7 +1692,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.424Z"
+      "timestamp": "2026-07-29T13:02:04.900Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1703,7 +1703,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.425Z"
+      "timestamp": "2026-07-29T13:02:04.900Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1714,7 +1714,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.426Z"
+      "timestamp": "2026-07-29T13:02:04.901Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1725,7 +1725,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.428Z"
+      "timestamp": "2026-07-29T13:02:04.901Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1736,7 +1736,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.428Z"
+      "timestamp": "2026-07-29T13:02:04.902Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1747,7 +1747,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.429Z"
+      "timestamp": "2026-07-29T13:02:04.902Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1758,7 +1758,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.430Z"
+      "timestamp": "2026-07-29T13:02:04.903Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1769,7 +1769,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.432Z"
+      "timestamp": "2026-07-29T13:02:04.905Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1780,7 +1780,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.433Z"
+      "timestamp": "2026-07-29T13:02:04.906Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1788,10 +1788,10 @@
       "name": "TC_IOS_SURVEY_012 — Survey scenario 12",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.436Z"
+      "timestamp": "2026-07-29T13:02:04.906Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1802,7 +1802,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.438Z"
+      "timestamp": "2026-07-29T13:02:04.907Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1810,10 +1810,10 @@
       "name": "TC_IOS_SURVEY_014 — Survey scenario 14",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 20,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.440Z"
+      "timestamp": "2026-07-29T13:02:04.908Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1824,7 +1824,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.441Z"
+      "timestamp": "2026-07-29T13:02:04.908Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1835,7 +1835,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.441Z"
+      "timestamp": "2026-07-29T13:02:04.909Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1846,7 +1846,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.442Z"
+      "timestamp": "2026-07-29T13:02:04.909Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1857,7 +1857,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.443Z"
+      "timestamp": "2026-07-29T13:02:04.910Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1868,7 +1868,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.443Z"
+      "timestamp": "2026-07-29T13:02:04.911Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1879,7 +1879,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.444Z"
+      "timestamp": "2026-07-29T13:02:04.911Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1890,7 +1890,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.445Z"
+      "timestamp": "2026-07-29T13:02:04.912Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1901,7 +1901,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.445Z"
+      "timestamp": "2026-07-29T13:02:04.914Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1912,7 +1912,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.446Z"
+      "timestamp": "2026-07-29T13:02:04.915Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1923,7 +1923,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.448Z"
+      "timestamp": "2026-07-29T13:02:04.915Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1934,7 +1934,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.449Z"
+      "timestamp": "2026-07-29T13:02:04.916Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1945,7 +1945,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.450Z"
+      "timestamp": "2026-07-29T13:02:04.916Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1953,10 +1953,10 @@
       "name": "TC_IOS_SURVEY_027 — Survey scenario 27",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.451Z"
+      "timestamp": "2026-07-29T13:02:04.917Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1967,7 +1967,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.452Z"
+      "timestamp": "2026-07-29T13:02:04.918Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1978,7 +1978,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.453Z"
+      "timestamp": "2026-07-29T13:02:04.920Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1989,7 +1989,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.454Z"
+      "timestamp": "2026-07-29T13:02:04.921Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -1997,10 +1997,10 @@
       "name": "TC_IOS_SURVEY_031 — Survey scenario 31",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.456Z"
+      "timestamp": "2026-07-29T13:02:04.922Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2011,7 +2011,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.457Z"
+      "timestamp": "2026-07-29T13:02:04.923Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2022,7 +2022,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.459Z"
+      "timestamp": "2026-07-29T13:02:04.923Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2033,7 +2033,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.459Z"
+      "timestamp": "2026-07-29T13:02:04.924Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2044,7 +2044,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.460Z"
+      "timestamp": "2026-07-29T13:02:04.924Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2055,7 +2055,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.461Z"
+      "timestamp": "2026-07-29T13:02:04.925Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2066,7 +2066,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.462Z"
+      "timestamp": "2026-07-29T13:02:04.925Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2077,7 +2077,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.465Z"
+      "timestamp": "2026-07-29T13:02:04.926Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2088,7 +2088,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.467Z"
+      "timestamp": "2026-07-29T13:02:04.926Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2099,7 +2099,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.468Z"
+      "timestamp": "2026-07-29T13:02:04.927Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2107,10 +2107,10 @@
       "name": "TC_IOS_SURVEY_041 — Survey scenario 41",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 20,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.470Z"
+      "timestamp": "2026-07-29T13:02:04.928Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2121,7 +2121,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.471Z"
+      "timestamp": "2026-07-29T13:02:04.929Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2132,7 +2132,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.472Z"
+      "timestamp": "2026-07-29T13:02:04.930Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2143,7 +2143,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.475Z"
+      "timestamp": "2026-07-29T13:02:04.931Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2154,7 +2154,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.476Z"
+      "timestamp": "2026-07-29T13:02:04.932Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2165,7 +2165,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.477Z"
+      "timestamp": "2026-07-29T13:02:04.934Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2173,10 +2173,10 @@
       "name": "TC_IOS_SURVEY_047 — Survey scenario 47",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.478Z"
+      "timestamp": "2026-07-29T13:02:04.934Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2187,7 +2187,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.479Z"
+      "timestamp": "2026-07-29T13:02:04.935Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2195,10 +2195,10 @@
       "name": "TC_IOS_SURVEY_049 — Survey scenario 49",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.481Z"
+      "timestamp": "2026-07-29T13:02:04.936Z"
     },
     {
       "id": "TC_IOS_SURVEY_XXX",
@@ -2209,7 +2209,7 @@
       "duration": 20,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.484Z"
+      "timestamp": "2026-07-29T13:02:04.937Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2217,10 +2217,10 @@
       "name": "TC_IOS_PSC_001 — Profile/Settings/Chat scenario 1",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 14,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.487Z"
+      "timestamp": "2026-07-29T13:02:04.941Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2228,10 +2228,10 @@
       "name": "TC_IOS_PSC_002 — Profile/Settings/Chat scenario 2",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.489Z"
+      "timestamp": "2026-07-29T13:02:04.942Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2242,7 +2242,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.489Z"
+      "timestamp": "2026-07-29T13:02:04.943Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2253,7 +2253,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.492Z"
+      "timestamp": "2026-07-29T13:02:04.943Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2264,7 +2264,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.493Z"
+      "timestamp": "2026-07-29T13:02:04.944Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2275,7 +2275,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.494Z"
+      "timestamp": "2026-07-29T13:02:04.945Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2286,7 +2286,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.494Z"
+      "timestamp": "2026-07-29T13:02:04.946Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2297,7 +2297,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.495Z"
+      "timestamp": "2026-07-29T13:02:04.946Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2308,7 +2308,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.497Z"
+      "timestamp": "2026-07-29T13:02:04.947Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2319,7 +2319,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.498Z"
+      "timestamp": "2026-07-29T13:02:04.949Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2330,7 +2330,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.498Z"
+      "timestamp": "2026-07-29T13:02:04.950Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2341,7 +2341,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.499Z"
+      "timestamp": "2026-07-29T13:02:04.951Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2352,7 +2352,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.499Z"
+      "timestamp": "2026-07-29T13:02:04.951Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2360,10 +2360,10 @@
       "name": "TC_IOS_PSC_014 — Profile/Settings/Chat scenario 14",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 14,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.500Z"
+      "timestamp": "2026-07-29T13:02:04.953Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2374,7 +2374,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.501Z"
+      "timestamp": "2026-07-29T13:02:04.953Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2385,7 +2385,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.501Z"
+      "timestamp": "2026-07-29T13:02:04.954Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2396,7 +2396,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.502Z"
+      "timestamp": "2026-07-29T13:02:04.954Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2407,7 +2407,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.502Z"
+      "timestamp": "2026-07-29T13:02:04.955Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2418,7 +2418,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.503Z"
+      "timestamp": "2026-07-29T13:02:04.956Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2429,7 +2429,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.503Z"
+      "timestamp": "2026-07-29T13:02:04.957Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2440,7 +2440,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.504Z"
+      "timestamp": "2026-07-29T13:02:04.959Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2448,10 +2448,10 @@
       "name": "TC_IOS_PSC_022 — Profile/Settings/Chat scenario 22",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 14,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.505Z"
+      "timestamp": "2026-07-29T13:02:04.960Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2462,7 +2462,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.506Z"
+      "timestamp": "2026-07-29T13:02:04.961Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2473,7 +2473,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.508Z"
+      "timestamp": "2026-07-29T13:02:04.962Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2484,7 +2484,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.510Z"
+      "timestamp": "2026-07-29T13:02:04.963Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2495,7 +2495,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.511Z"
+      "timestamp": "2026-07-29T13:02:04.965Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2506,7 +2506,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.513Z"
+      "timestamp": "2026-07-29T13:02:04.967Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2517,7 +2517,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.515Z"
+      "timestamp": "2026-07-29T13:02:04.968Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2528,7 +2528,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.517Z"
+      "timestamp": "2026-07-29T13:02:04.970Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2536,10 +2536,10 @@
       "name": "TC_IOS_PSC_030 — Profile/Settings/Chat scenario 30",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 14,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.518Z"
+      "timestamp": "2026-07-29T13:02:04.971Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2550,7 +2550,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.520Z"
+      "timestamp": "2026-07-29T13:02:04.972Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2561,7 +2561,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.522Z"
+      "timestamp": "2026-07-29T13:02:04.974Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2572,7 +2572,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.523Z"
+      "timestamp": "2026-07-29T13:02:04.975Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2583,7 +2583,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.523Z"
+      "timestamp": "2026-07-29T13:02:04.977Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2594,7 +2594,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.524Z"
+      "timestamp": "2026-07-29T13:02:04.979Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2605,7 +2605,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.525Z"
+      "timestamp": "2026-07-29T13:02:04.981Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2616,7 +2616,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.526Z"
+      "timestamp": "2026-07-29T13:02:04.983Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2627,7 +2627,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.528Z"
+      "timestamp": "2026-07-29T13:02:04.984Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2638,7 +2638,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.531Z"
+      "timestamp": "2026-07-29T13:02:04.987Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2649,7 +2649,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.532Z"
+      "timestamp": "2026-07-29T13:02:04.989Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2660,7 +2660,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.533Z"
+      "timestamp": "2026-07-29T13:02:04.989Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2671,7 +2671,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.533Z"
+      "timestamp": "2026-07-29T13:02:04.991Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2682,7 +2682,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.540Z"
+      "timestamp": "2026-07-29T13:02:04.993Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2693,7 +2693,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.541Z"
+      "timestamp": "2026-07-29T13:02:04.995Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2704,7 +2704,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.542Z"
+      "timestamp": "2026-07-29T13:02:04.997Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2715,7 +2715,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.544Z"
+      "timestamp": "2026-07-29T13:02:04.999Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2726,7 +2726,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.546Z"
+      "timestamp": "2026-07-29T13:02:05.000Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2737,7 +2737,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.546Z"
+      "timestamp": "2026-07-29T13:02:05.001Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2748,7 +2748,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.547Z"
+      "timestamp": "2026-07-29T13:02:05.003Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2759,7 +2759,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.547Z"
+      "timestamp": "2026-07-29T13:02:05.005Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2770,7 +2770,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.548Z"
+      "timestamp": "2026-07-29T13:02:05.007Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2781,7 +2781,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.549Z"
+      "timestamp": "2026-07-29T13:02:05.009Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2792,7 +2792,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.549Z"
+      "timestamp": "2026-07-29T13:02:05.012Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2803,7 +2803,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.550Z"
+      "timestamp": "2026-07-29T13:02:05.013Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2814,7 +2814,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.551Z"
+      "timestamp": "2026-07-29T13:02:05.014Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2825,7 +2825,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.551Z"
+      "timestamp": "2026-07-29T13:02:05.014Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2836,7 +2836,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.552Z"
+      "timestamp": "2026-07-29T13:02:05.015Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2847,7 +2847,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.553Z"
+      "timestamp": "2026-07-29T13:02:05.016Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2858,7 +2858,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.555Z"
+      "timestamp": "2026-07-29T13:02:05.016Z"
     },
     {
       "id": "TC_IOS_PSC_XXX",
@@ -2869,7 +2869,7 @@
       "duration": 14,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.556Z"
+      "timestamp": "2026-07-29T13:02:05.017Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2880,7 +2880,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.558Z"
+      "timestamp": "2026-07-29T13:02:05.017Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2891,7 +2891,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.560Z"
+      "timestamp": "2026-07-29T13:02:05.018Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2902,7 +2902,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.562Z"
+      "timestamp": "2026-07-29T13:02:05.020Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2913,7 +2913,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.567Z"
+      "timestamp": "2026-07-29T13:02:05.022Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2924,7 +2924,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.571Z"
+      "timestamp": "2026-07-29T13:02:05.024Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2935,7 +2935,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.578Z"
+      "timestamp": "2026-07-29T13:02:05.026Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2946,7 +2946,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.582Z"
+      "timestamp": "2026-07-29T13:02:05.027Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2957,7 +2957,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.585Z"
+      "timestamp": "2026-07-29T13:02:05.028Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2968,7 +2968,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.586Z"
+      "timestamp": "2026-07-29T13:02:05.029Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2979,7 +2979,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.588Z"
+      "timestamp": "2026-07-29T13:02:05.030Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -2990,7 +2990,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.590Z"
+      "timestamp": "2026-07-29T13:02:05.031Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3001,7 +3001,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.594Z"
+      "timestamp": "2026-07-29T13:02:05.031Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3012,7 +3012,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.596Z"
+      "timestamp": "2026-07-29T13:02:05.033Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3023,7 +3023,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.598Z"
+      "timestamp": "2026-07-29T13:02:05.035Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3034,7 +3034,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.599Z"
+      "timestamp": "2026-07-29T13:02:05.037Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3045,7 +3045,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.600Z"
+      "timestamp": "2026-07-29T13:02:05.038Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3053,10 +3053,10 @@
       "name": "TC_IOS_REG_017 — Regression & Performance scenario 17",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 10,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.600Z"
+      "timestamp": "2026-07-29T13:02:05.041Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3064,10 +3064,10 @@
       "name": "TC_IOS_REG_018 — Regression & Performance scenario 18",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 10,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.601Z"
+      "timestamp": "2026-07-29T13:02:05.042Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3078,7 +3078,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.602Z"
+      "timestamp": "2026-07-29T13:02:05.044Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3089,7 +3089,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.602Z"
+      "timestamp": "2026-07-29T13:02:05.046Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3100,7 +3100,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.603Z"
+      "timestamp": "2026-07-29T13:02:05.046Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3111,7 +3111,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.604Z"
+      "timestamp": "2026-07-29T13:02:05.047Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3122,7 +3122,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.606Z"
+      "timestamp": "2026-07-29T13:02:05.048Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3133,7 +3133,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.608Z"
+      "timestamp": "2026-07-29T13:02:05.049Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3144,7 +3144,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.609Z"
+      "timestamp": "2026-07-29T13:02:05.050Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3155,7 +3155,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.610Z"
+      "timestamp": "2026-07-29T13:02:05.051Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3166,7 +3166,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.610Z"
+      "timestamp": "2026-07-29T13:02:05.052Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3177,7 +3177,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.611Z"
+      "timestamp": "2026-07-29T13:02:05.053Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3188,7 +3188,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.612Z"
+      "timestamp": "2026-07-29T13:02:05.054Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3199,7 +3199,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.613Z"
+      "timestamp": "2026-07-29T13:02:05.055Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3210,7 +3210,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.615Z"
+      "timestamp": "2026-07-29T13:02:05.056Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3221,7 +3221,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.616Z"
+      "timestamp": "2026-07-29T13:02:05.057Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3232,7 +3232,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.616Z"
+      "timestamp": "2026-07-29T13:02:05.058Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3243,7 +3243,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.617Z"
+      "timestamp": "2026-07-29T13:02:05.059Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3254,7 +3254,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.618Z"
+      "timestamp": "2026-07-29T13:02:05.059Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3265,7 +3265,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.619Z"
+      "timestamp": "2026-07-29T13:02:05.061Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3276,7 +3276,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.620Z"
+      "timestamp": "2026-07-29T13:02:05.062Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3287,7 +3287,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.621Z"
+      "timestamp": "2026-07-29T13:02:05.063Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3298,7 +3298,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.622Z"
+      "timestamp": "2026-07-29T13:02:05.063Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3309,7 +3309,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.623Z"
+      "timestamp": "2026-07-29T13:02:05.065Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3320,7 +3320,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.623Z"
+      "timestamp": "2026-07-29T13:02:05.066Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3331,7 +3331,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.624Z"
+      "timestamp": "2026-07-29T13:02:05.068Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3342,7 +3342,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.625Z"
+      "timestamp": "2026-07-29T13:02:05.068Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3353,7 +3353,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.626Z"
+      "timestamp": "2026-07-29T13:02:05.069Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3364,7 +3364,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.626Z"
+      "timestamp": "2026-07-29T13:02:05.071Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3375,7 +3375,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.627Z"
+      "timestamp": "2026-07-29T13:02:05.072Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3386,7 +3386,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.628Z"
+      "timestamp": "2026-07-29T13:02:05.072Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3397,7 +3397,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.629Z"
+      "timestamp": "2026-07-29T13:02:05.073Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3408,7 +3408,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.631Z"
+      "timestamp": "2026-07-29T13:02:05.074Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3416,10 +3416,10 @@
       "name": "TC_IOS_REG_050 — Regression & Performance scenario 50",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.637Z"
+      "timestamp": "2026-07-29T13:02:05.076Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3430,7 +3430,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.641Z"
+      "timestamp": "2026-07-29T13:02:05.077Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3441,7 +3441,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.644Z"
+      "timestamp": "2026-07-29T13:02:05.078Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3452,7 +3452,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.646Z"
+      "timestamp": "2026-07-29T13:02:05.080Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3463,7 +3463,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.649Z"
+      "timestamp": "2026-07-29T13:02:05.082Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3474,7 +3474,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.656Z"
+      "timestamp": "2026-07-29T13:02:05.083Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3485,7 +3485,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.657Z"
+      "timestamp": "2026-07-29T13:02:05.083Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3496,7 +3496,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.660Z"
+      "timestamp": "2026-07-29T13:02:05.084Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3507,7 +3507,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.661Z"
+      "timestamp": "2026-07-29T13:02:05.085Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3518,7 +3518,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.662Z"
+      "timestamp": "2026-07-29T13:02:05.086Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3529,7 +3529,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.662Z"
+      "timestamp": "2026-07-29T13:02:05.086Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3540,7 +3540,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.663Z"
+      "timestamp": "2026-07-29T13:02:05.087Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3551,7 +3551,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.664Z"
+      "timestamp": "2026-07-29T13:02:05.089Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3562,7 +3562,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.666Z"
+      "timestamp": "2026-07-29T13:02:05.090Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3573,7 +3573,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.669Z"
+      "timestamp": "2026-07-29T13:02:05.091Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3584,7 +3584,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.670Z"
+      "timestamp": "2026-07-29T13:02:05.092Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3595,7 +3595,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.672Z"
+      "timestamp": "2026-07-29T13:02:05.093Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3603,10 +3603,10 @@
       "name": "TC_IOS_REG_067 — Regression & Performance scenario 67",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 10,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.674Z"
+      "timestamp": "2026-07-29T13:02:05.094Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3617,7 +3617,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.676Z"
+      "timestamp": "2026-07-29T13:02:05.094Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3628,7 +3628,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.678Z"
+      "timestamp": "2026-07-29T13:02:05.095Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3639,7 +3639,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.680Z"
+      "timestamp": "2026-07-29T13:02:05.097Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3650,7 +3650,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.682Z"
+      "timestamp": "2026-07-29T13:02:05.100Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3661,7 +3661,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.685Z"
+      "timestamp": "2026-07-29T13:02:05.101Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3672,7 +3672,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.686Z"
+      "timestamp": "2026-07-29T13:02:05.103Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3683,7 +3683,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.689Z"
+      "timestamp": "2026-07-29T13:02:05.105Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3694,7 +3694,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.689Z"
+      "timestamp": "2026-07-29T13:02:05.107Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3705,7 +3705,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.690Z"
+      "timestamp": "2026-07-29T13:02:05.108Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3716,7 +3716,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.691Z"
+      "timestamp": "2026-07-29T13:02:05.109Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3727,7 +3727,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.692Z"
+      "timestamp": "2026-07-29T13:02:05.112Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3738,7 +3738,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.693Z"
+      "timestamp": "2026-07-29T13:02:05.115Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3749,7 +3749,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.695Z"
+      "timestamp": "2026-07-29T13:02:05.117Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3760,7 +3760,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.701Z"
+      "timestamp": "2026-07-29T13:02:05.118Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3771,7 +3771,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.703Z"
+      "timestamp": "2026-07-29T13:02:05.119Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3782,7 +3782,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.706Z"
+      "timestamp": "2026-07-29T13:02:05.119Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3793,7 +3793,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.706Z"
+      "timestamp": "2026-07-29T13:02:05.120Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3804,7 +3804,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.708Z"
+      "timestamp": "2026-07-29T13:02:05.121Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3815,7 +3815,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.711Z"
+      "timestamp": "2026-07-29T13:02:05.123Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3826,7 +3826,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.712Z"
+      "timestamp": "2026-07-29T13:02:05.124Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3837,7 +3837,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.713Z"
+      "timestamp": "2026-07-29T13:02:05.126Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3848,7 +3848,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.715Z"
+      "timestamp": "2026-07-29T13:02:05.127Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3859,7 +3859,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.718Z"
+      "timestamp": "2026-07-29T13:02:05.128Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3870,7 +3870,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.719Z"
+      "timestamp": "2026-07-29T13:02:05.130Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3881,7 +3881,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.720Z"
+      "timestamp": "2026-07-29T13:02:05.131Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3892,7 +3892,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.720Z"
+      "timestamp": "2026-07-29T13:02:05.133Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3903,7 +3903,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.721Z"
+      "timestamp": "2026-07-29T13:02:05.136Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3914,7 +3914,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.722Z"
+      "timestamp": "2026-07-29T13:02:05.138Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3925,7 +3925,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.723Z"
+      "timestamp": "2026-07-29T13:02:05.139Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3936,7 +3936,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.725Z"
+      "timestamp": "2026-07-29T13:02:05.140Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3947,7 +3947,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.726Z"
+      "timestamp": "2026-07-29T13:02:05.142Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3958,7 +3958,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.728Z"
+      "timestamp": "2026-07-29T13:02:05.143Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3969,7 +3969,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.729Z"
+      "timestamp": "2026-07-29T13:02:05.144Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3980,7 +3980,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.729Z"
+      "timestamp": "2026-07-29T13:02:05.144Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3991,7 +3991,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.731Z"
+      "timestamp": "2026-07-29T13:02:05.146Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -3999,10 +3999,10 @@
       "name": "TC_IOS_REG_103 — Regression & Performance scenario 103",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 10,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.733Z"
+      "timestamp": "2026-07-29T13:02:05.148Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4013,7 +4013,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.735Z"
+      "timestamp": "2026-07-29T13:02:05.150Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4024,7 +4024,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.737Z"
+      "timestamp": "2026-07-29T13:02:05.150Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4035,7 +4035,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.738Z"
+      "timestamp": "2026-07-29T13:02:05.151Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4046,7 +4046,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.740Z"
+      "timestamp": "2026-07-29T13:02:05.152Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4057,7 +4057,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.747Z"
+      "timestamp": "2026-07-29T13:02:05.153Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4065,10 +4065,10 @@
       "name": "TC_IOS_REG_109 — Regression & Performance scenario 109",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.748Z"
+      "timestamp": "2026-07-29T13:02:05.154Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4079,7 +4079,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.750Z"
+      "timestamp": "2026-07-29T13:02:05.154Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4087,10 +4087,10 @@
       "name": "TC_IOS_REG_111 — Regression & Performance scenario 111",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.757Z"
+      "timestamp": "2026-07-29T13:02:05.155Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4101,7 +4101,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.758Z"
+      "timestamp": "2026-07-29T13:02:05.156Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4109,10 +4109,10 @@
       "name": "TC_IOS_REG_113 — Regression & Performance scenario 113",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.761Z"
+      "timestamp": "2026-07-29T13:02:05.157Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4123,7 +4123,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.766Z"
+      "timestamp": "2026-07-29T13:02:05.158Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4134,7 +4134,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.768Z"
+      "timestamp": "2026-07-29T13:02:05.159Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4145,7 +4145,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.769Z"
+      "timestamp": "2026-07-29T13:02:05.159Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4156,7 +4156,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.771Z"
+      "timestamp": "2026-07-29T13:02:05.160Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4167,7 +4167,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.773Z"
+      "timestamp": "2026-07-29T13:02:05.161Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4178,7 +4178,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.774Z"
+      "timestamp": "2026-07-29T13:02:05.162Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4189,7 +4189,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.775Z"
+      "timestamp": "2026-07-29T13:02:05.162Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4200,7 +4200,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.776Z"
+      "timestamp": "2026-07-29T13:02:05.163Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4211,7 +4211,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.778Z"
+      "timestamp": "2026-07-29T13:02:05.164Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4222,7 +4222,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.780Z"
+      "timestamp": "2026-07-29T13:02:05.165Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4233,7 +4233,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.781Z"
+      "timestamp": "2026-07-29T13:02:05.165Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4244,7 +4244,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.783Z"
+      "timestamp": "2026-07-29T13:02:05.167Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4255,7 +4255,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.785Z"
+      "timestamp": "2026-07-29T13:02:05.168Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4266,7 +4266,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.787Z"
+      "timestamp": "2026-07-29T13:02:05.168Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4277,7 +4277,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.789Z"
+      "timestamp": "2026-07-29T13:02:05.169Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4288,7 +4288,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.791Z"
+      "timestamp": "2026-07-29T13:02:05.170Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4299,7 +4299,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.794Z"
+      "timestamp": "2026-07-29T13:02:05.171Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4310,7 +4310,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.796Z"
+      "timestamp": "2026-07-29T13:02:05.172Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4321,7 +4321,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.798Z"
+      "timestamp": "2026-07-29T13:02:05.173Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4329,10 +4329,10 @@
       "name": "TC_IOS_REG_133 — Regression & Performance scenario 133",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.810Z"
+      "timestamp": "2026-07-29T13:02:05.175Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4343,7 +4343,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.819Z"
+      "timestamp": "2026-07-29T13:02:05.176Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4354,7 +4354,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.822Z"
+      "timestamp": "2026-07-29T13:02:05.177Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4365,7 +4365,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.823Z"
+      "timestamp": "2026-07-29T13:02:05.178Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4376,7 +4376,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.825Z"
+      "timestamp": "2026-07-29T13:02:05.179Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4384,10 +4384,10 @@
       "name": "TC_IOS_REG_138 — Regression & Performance scenario 138",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.827Z"
+      "timestamp": "2026-07-29T13:02:05.180Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4398,7 +4398,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.828Z"
+      "timestamp": "2026-07-29T13:02:05.182Z"
     },
     {
       "id": "TC_IOS_REG_XXX",
@@ -4409,7 +4409,7 @@
       "duration": 10,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T12:57:50.830Z"
+      "timestamp": "2026-07-29T13:02:05.183Z"
     }
   ]
 }
