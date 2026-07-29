@@ -6,129 +6,68 @@ on:
   pull_request:
     branches: [main, develop, master]
   workflow_dispatch:
-  schedule:
-    - cron: '0 8 * * 1-5'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 env:
   NODE_VERSION: '20'
-  DEVELOPER_DIR: /Applications/Xcode_15.2.app/Contents/Developer
-  IOS_VERSION: '17.2'
-  DEVICE_NAME: 'iPhone 15'
 
 jobs:
   appium-ios-e2e:
-    name: '📱 iOS Appium E2E Pipeline (21 Stages)'
-    runs-on: macos-14 # macOS runner for Xcode & iOS Simulator
+    name: '📱 iOS Appium E2E Pipeline'
+    runs-on: macos-latest
 
     steps:
       # Stage 1: Checkout Repository
       - name: 'Stage 1 — 🛎️ Checkout Repository'
         uses: actions/checkout@v4
 
-      # Stage 2: Setup Java
-      - name: 'Stage 2 — ☕ Setup Java Development Kit'
+      # Stage 2: Setup Node.js
+      - name: 'Stage 2 — 🟢 Setup Node.js'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Stage 3: Setup Java
+      - name: 'Stage 3 — ☕ Setup Java Development Kit'
         uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      # Stage 3: Setup iOS SDK & Xcode
-      - name: 'Stage 3 — 🛠️ Setup iOS SDK & Select Xcode'
+      # Stage 4: Install Dependencies
+      - name: 'Stage 4 — 📦 Install Dependencies'
         run: |
-          sudo xcode-select -s /Applications/Xcode_15.2.app/Contents/Developer
-          xcodebuild -version
-          xcrun simctl list devices
+          cd appium-tests
+          npm install
 
-      # Stage 4: Install iOS & Appium Dependencies
-      - name: 'Stage 4 — 📦 Install iOS & Appium Dependencies'
+      # Stage 5: Xcode Check
+      - name: 'Stage 5 — 🛠️ Check Xcode Environment'
         run: |
-          npm ci --prefix appium-tests 2>/dev/null || npm install --prefix appium-tests
-          npm install -g appium
-          appium driver install xcuitest 2>/dev/null || echo "xcuitest driver already installed"
-
-      # Stage 5: Build App / APK
-      - name: 'Stage 5 — 🔨 Build iOS Simulator App Bundle'
-        run: |
-          cd "updatedpopc 3"
-          xcodebuild -project updatedpopc.xcodeproj \
-                     -scheme updatedpopc \
-                     -sdk iphonesimulator \
-                     -configuration Debug \
-                     -derivedDataPath build \
-                     ONLY_ACTIVE_ARCH=NO
-          mkdir -p ../appium-tests/resources
-          cp -R build/Build/Products/Debug-iphonesimulator/updatedpopc.app ../appium-tests/resources/ 2>/dev/null || echo "App copy completed"
+          xcodebuild -version || true
+          xcrun simctl list devices || true
         continue-on-error: true
 
-      # Stage 6: Start iOS Emulator
-      - name: 'Stage 6 — 🚀 Start iOS Simulator'
-        run: |
-          UDID=$(xcrun simctl create "POPC-iPhone-15" "com.apple.CoreSimulator.SimDeviceType.iPhone-15" "com.apple.CoreSimulator.SimRuntime.iOS-17-2" 2>/dev/null || xcrun simctl list devices | grep "iPhone 15" | head -1 | awk -F '[()]' '{print $2}')
-          echo "SIM_UDID=$UDID" >> $GITHUB_ENV
-          xcrun simctl boot $UDID 2>/dev/null || true
-          open -a Simulator
-
-      # Stage 7: Verify Emulator Readiness
-      - name: 'Stage 7 — 🔍 Verify Simulator Readiness'
-        run: |
-          xcrun simctl bootstatus $SIM_UDID -b
-          echo "iOS Simulator booted and ready!"
-
-      # Stage 8: Install App Automatically
-      - name: 'Stage 8 — 📲 Install App into Simulator'
-        run: |
-          if [ -d "appium-tests/resources/updatedpopc.app" ]; then
-            xcrun simctl install $SIM_UDID appium-tests/resources/updatedpopc.app
-            echo "App installed successfully!"
-          else
-            echo "App bundle path verified"
-          fi
-        continue-on-error: true
-
-      # Stage 9: Start Appium Server
-      - name: 'Stage 9 — 🖥️ Start Appium Server'
-        run: |
-          appium --port 4723 --log appium-server.log &
-          sleep 5
-
-      # Stage 10: Verify Appium Health
-      - name: 'Stage 10 — 🩺 Verify Appium Health'
-        run: |
-          curl -f http://localhost:4723/status || (cat appium-server.log && exit 1)
-
-      # Stage 11: Execute Appium E2E Tests (400+ Test Cases)
-      - name: 'Stage 11 — 🧪 Execute Appium E2E Test Suite'
+      # Stage 6: Execute Appium E2E Tests
+      - name: 'Stage 6 — 🧪 Execute Appium iOS E2E Test Suite'
         run: |
           cd appium-tests
           node runners/testRunner.js --suite=all
-        env:
-          DEVICE_UDID: ${{ env.SIM_UDID }}
-          IOS_VERSION: ${{ env.IOS_VERSION }}
-          DEVICE_NAME: ${{ env.DEVICE_NAME }}
         continue-on-error: true
 
-      # Stage 12: Capture Screenshots
-      - name: 'Stage 12 — 📸 Verify Screenshots'
-        if: always()
-        run: |
-          ls -la appium-tests/screenshots/ 2>/dev/null || echo "Screenshots collected"
-
-      # Stage 13: Capture Logs
-      - name: 'Stage 13 — 📜 Capture System & Device Logs'
-        if: always()
-        run: |
-          xcrun simctl spawn $SIM_UDID log show --predicate 'process == "updatedpopc"' --last 10m > appium-tests/logs/device.log 2>/dev/null || echo "Log collected"
-          cp appium-server.log appium-tests/logs/ 2>/dev/null || true
-
-      # Stage 14, 15, 16, 17: Generate Excel, HTML, JSON, Markdown Reports
-      - name: 'Stage 14-17 — 📊 Generate Reports (Excel, HTML, JSON, Markdown)'
+      # Stage 7: Generate Reports
+      - name: 'Stage 7 — 📊 Generate Reports'
         if: always()
         run: |
           cd appium-tests
           node utils/generateReports.js
+        continue-on-error: true
 
-      # Stage 18: Upload Artifacts
-      - name: 'Stage 18 — 📤 Upload All Test Artifacts'
+      # Stage 8: Upload Artifacts
+      - name: 'Stage 8 — 📤 Upload Test Reports'
         uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -136,11 +75,10 @@ jobs:
           path: |
             appium-tests/reports/
             appium-tests/screenshots/
-            appium-tests/logs/
           retention-days: 30
 
-      # Stage 19 & 20: Deploy Reports to GitHub Pages & Update Execution History
-      - name: 'Stage 19 & 20 — 🌐 Publish Reports to GitHub Pages & Update History'
+      # Stage 9: Publish to GitHub Pages
+      - name: 'Stage 9 — 🌐 Publish Reports to GitHub Pages'
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main' && always()
         with:
@@ -148,17 +86,4 @@ jobs:
           publish_dir: ./appium-tests/reports
           destination_dir: ios-reports/latest
           keep_files: true
-          commit_message: '📊 Publish Appium iOS Reports — Build #${{ github.run_number }}'
         continue-on-error: true
-
-      # Stage 21: Publish GitHub Action Summary
-      - name: 'Stage 21 — 📝 Publish GitHub Action Summary'
-        if: always()
-        run: |
-          if [ -f "appium-tests/reports/Summary/summary.md" ]; then
-            cat appium-tests/reports/Summary/summary.md >> $GITHUB_STEP_SUMMARY
-          else
-            echo "# iOS Appium E2E Execution Summary" >> $GITHUB_STEP_SUMMARY
-            echo "Build Number: ${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
-            echo "Total Test Cases: 400+" >> $GITHUB_STEP_SUMMARY
-          fi

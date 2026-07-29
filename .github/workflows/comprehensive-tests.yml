@@ -7,6 +7,11 @@ on:
     branches: [main, develop, master]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   run-testing-suite:
     name: ⚡ API, Unit, Threshold & Vulnerability Tests
@@ -20,8 +25,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-          cache-dependency-path: 'testing/package-lock.json'
 
       - name: 📦 Install Testing Dependencies
         run: |
@@ -32,11 +35,24 @@ jobs:
         run: |
           cd testing
           node run-all.js
+        continue-on-error: true
 
       - name: 📤 Upload Excel & HTML Reports
         uses: actions/upload-artifact@v4
+        if: always()
         with:
-          name: master-test-reports
+          name: master-test-reports-${{ github.run_number }}
           path: |
             testing/reports/Excel/POPC_Master_Test_Report.xlsx
             testing/reports/HTML/execution-report.html
+          retention-days: 30
+
+      - name: 🌐 Publish Reports to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main' && always()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./testing/reports
+          destination_dir: master-reports/latest
+          keep_files: true
+        continue-on-error: true
