@@ -8,8 +8,8 @@
   "passRate": "100.00%",
   "failRate": "0.00%",
   "totalDuration": "0.01s",
-  "sessionStart": "2026-07-29T11:43:11.899Z",
-  "sessionEnd": "2026-07-29T11:43:12.076Z",
+  "sessionStart": "2026-07-29T12:27:31.117Z",
+  "sessionEnd": "2026-07-29T12:27:31.271Z",
   "results": [
     {
       "id": "TC_PATIENT_001",
@@ -17,10 +17,10 @@
       "name": "TC_PATIENT_001 — Patient management scenario 1",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.650Z"
+      "timestamp": "2026-07-29T12:27:00.433Z"
     },
     {
       "id": "TC_PATIENT_002",
@@ -31,7 +31,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.650Z"
+      "timestamp": "2026-07-29T12:27:00.433Z"
     },
     {
       "id": "TC_PATIENT_003",
@@ -39,10 +39,10 @@
       "name": "TC_PATIENT_003 — Patient management scenario 3",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.651Z"
+      "timestamp": "2026-07-29T12:27:00.434Z"
     },
     {
       "id": "TC_PATIENT_004",
@@ -53,7 +53,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.651Z"
+      "timestamp": "2026-07-29T12:27:00.434Z"
     },
     {
       "id": "TC_PATIENT_005",
@@ -64,7 +64,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.652Z"
+      "timestamp": "2026-07-29T12:27:00.435Z"
     },
     {
       "id": "TC_PATIENT_006",
@@ -75,7 +75,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.652Z"
+      "timestamp": "2026-07-29T12:27:00.435Z"
     },
     {
       "id": "TC_PATIENT_007",
@@ -86,7 +86,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.653Z"
+      "timestamp": "2026-07-29T12:27:00.436Z"
     },
     {
       "id": "TC_PATIENT_008",
@@ -97,7 +97,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.654Z"
+      "timestamp": "2026-07-29T12:27:00.436Z"
     },
     {
       "id": "TC_PATIENT_009",
@@ -108,7 +108,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.654Z"
+      "timestamp": "2026-07-29T12:27:00.437Z"
     },
     {
       "id": "TC_PATIENT_010",
@@ -119,7 +119,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.655Z"
+      "timestamp": "2026-07-29T12:27:00.437Z"
     },
     {
       "id": "TC_PATIENT_011",
@@ -127,10 +127,10 @@
       "name": "TC_PATIENT_011 — Patient management scenario 11",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.655Z"
+      "timestamp": "2026-07-29T12:27:00.438Z"
     },
     {
       "id": "TC_PATIENT_012",
@@ -141,7 +141,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.656Z"
+      "timestamp": "2026-07-29T12:27:00.438Z"
     },
     {
       "id": "TC_PATIENT_013",
@@ -152,7 +152,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.656Z"
+      "timestamp": "2026-07-29T12:27:00.439Z"
     },
     {
       "id": "TC_PATIENT_014",
@@ -163,7 +163,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.657Z"
+      "timestamp": "2026-07-29T12:27:00.439Z"
     },
     {
       "id": "TC_PATIENT_015",
@@ -174,7 +174,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.657Z"
+      "timestamp": "2026-07-29T12:27:00.439Z"
     },
     {
       "id": "TC_PATIENT_016",
@@ -185,7 +185,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.657Z"
+      "timestamp": "2026-07-29T12:27:00.440Z"
     },
     {
       "id": "TC_PATIENT_017",
@@ -196,7 +196,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.658Z"
+      "timestamp": "2026-07-29T12:27:00.440Z"
     },
     {
       "id": "TC_PATIENT_018",
@@ -207,7 +207,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.658Z"
+      "timestamp": "2026-07-29T12:27:00.441Z"
     },
     {
       "id": "TC_PATIENT_019",
@@ -218,7 +218,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.659Z"
+      "timestamp": "2026-07-29T12:27:00.441Z"
     },
     {
       "id": "TC_PATIENT_020",
@@ -229,7 +229,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.659Z"
+      "timestamp": "2026-07-29T12:27:00.441Z"
     },
     {
       "id": "TC_PATIENT_021",
@@ -240,7 +240,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.659Z"
+      "timestamp": "2026-07-29T12:27:00.442Z"
     },
     {
       "id": "TC_PATIENT_022",
@@ -251,7 +251,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.660Z"
+      "timestamp": "2026-07-29T12:27:00.442Z"
     },
     {
       "id": "TC_PATIENT_023",
@@ -262,7 +262,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.660Z"
+      "timestamp": "2026-07-29T12:27:00.443Z"
     },
     {
       "id": "TC_PATIENT_024",
@@ -273,7 +273,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.660Z"
+      "timestamp": "2026-07-29T12:27:00.443Z"
     },
     {
       "id": "TC_PATIENT_025",
@@ -284,7 +284,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.661Z"
+      "timestamp": "2026-07-29T12:27:00.443Z"
     },
     {
       "id": "TC_PATIENT_026",
@@ -295,7 +295,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.661Z"
+      "timestamp": "2026-07-29T12:27:00.444Z"
     },
     {
       "id": "TC_PATIENT_027",
@@ -303,10 +303,10 @@
       "name": "TC_PATIENT_027 — Patient management scenario 27",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.662Z"
+      "timestamp": "2026-07-29T12:27:00.444Z"
     },
     {
       "id": "TC_PATIENT_028",
@@ -317,7 +317,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.662Z"
+      "timestamp": "2026-07-29T12:27:00.444Z"
     },
     {
       "id": "TC_PATIENT_029",
@@ -328,7 +328,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.662Z"
+      "timestamp": "2026-07-29T12:27:00.445Z"
     },
     {
       "id": "TC_PATIENT_030",
@@ -339,7 +339,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.663Z"
+      "timestamp": "2026-07-29T12:27:00.445Z"
     },
     {
       "id": "TC_PATIENT_031",
@@ -347,10 +347,10 @@
       "name": "TC_PATIENT_031 — Patient management scenario 31",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.663Z"
+      "timestamp": "2026-07-29T12:27:00.446Z"
     },
     {
       "id": "TC_PATIENT_032",
@@ -361,7 +361,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.664Z"
+      "timestamp": "2026-07-29T12:27:00.446Z"
     },
     {
       "id": "TC_PATIENT_033",
@@ -372,7 +372,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.664Z"
+      "timestamp": "2026-07-29T12:27:00.446Z"
     },
     {
       "id": "TC_PATIENT_034",
@@ -383,7 +383,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.665Z"
+      "timestamp": "2026-07-29T12:27:00.447Z"
     },
     {
       "id": "TC_PATIENT_035",
@@ -394,7 +394,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.665Z"
+      "timestamp": "2026-07-29T12:27:00.447Z"
     },
     {
       "id": "TC_PATIENT_036",
@@ -402,10 +402,10 @@
       "name": "TC_PATIENT_036 — Patient management scenario 36",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.665Z"
+      "timestamp": "2026-07-29T12:27:00.448Z"
     },
     {
       "id": "TC_PATIENT_037",
@@ -416,7 +416,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.666Z"
+      "timestamp": "2026-07-29T12:27:00.448Z"
     },
     {
       "id": "TC_PATIENT_038",
@@ -424,10 +424,10 @@
       "name": "TC_PATIENT_038 — Patient management scenario 38",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.666Z"
+      "timestamp": "2026-07-29T12:27:00.449Z"
     },
     {
       "id": "TC_PATIENT_039",
@@ -435,10 +435,10 @@
       "name": "TC_PATIENT_039 — Patient management scenario 39",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.667Z"
+      "timestamp": "2026-07-29T12:27:00.449Z"
     },
     {
       "id": "TC_PATIENT_040",
@@ -449,7 +449,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.667Z"
+      "timestamp": "2026-07-29T12:27:00.449Z"
     },
     {
       "id": "TC_PATIENT_041",
@@ -460,7 +460,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.667Z"
+      "timestamp": "2026-07-29T12:27:00.450Z"
     },
     {
       "id": "TC_PATIENT_042",
@@ -471,7 +471,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.668Z"
+      "timestamp": "2026-07-29T12:27:00.450Z"
     },
     {
       "id": "TC_PATIENT_043",
@@ -482,7 +482,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.668Z"
+      "timestamp": "2026-07-29T12:27:00.450Z"
     },
     {
       "id": "TC_PATIENT_044",
@@ -490,10 +490,10 @@
       "name": "TC_PATIENT_044 — Patient management scenario 44",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.669Z"
+      "timestamp": "2026-07-29T12:27:00.451Z"
     },
     {
       "id": "TC_PATIENT_045",
@@ -504,7 +504,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.669Z"
+      "timestamp": "2026-07-29T12:27:00.451Z"
     },
     {
       "id": "TC_PATIENT_046",
@@ -515,7 +515,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.669Z"
+      "timestamp": "2026-07-29T12:27:00.452Z"
     },
     {
       "id": "TC_PATIENT_047",
@@ -526,7 +526,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.670Z"
+      "timestamp": "2026-07-29T12:27:00.452Z"
     },
     {
       "id": "TC_PATIENT_048",
@@ -537,7 +537,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.670Z"
+      "timestamp": "2026-07-29T12:27:00.452Z"
     },
     {
       "id": "TC_PATIENT_049",
@@ -548,7 +548,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.671Z"
+      "timestamp": "2026-07-29T12:27:00.453Z"
     },
     {
       "id": "TC_PATIENT_050",
@@ -559,7 +559,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.671Z"
+      "timestamp": "2026-07-29T12:27:00.453Z"
     },
     {
       "id": "TC_PATIENT_051",
@@ -567,10 +567,10 @@
       "name": "TC_PATIENT_051 — Patient management scenario 51",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.671Z"
+      "timestamp": "2026-07-29T12:27:00.454Z"
     },
     {
       "id": "TC_PATIENT_052",
@@ -581,7 +581,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.672Z"
+      "timestamp": "2026-07-29T12:27:00.454Z"
     },
     {
       "id": "TC_PATIENT_053",
@@ -592,7 +592,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.672Z"
+      "timestamp": "2026-07-29T12:27:00.455Z"
     },
     {
       "id": "TC_PATIENT_054",
@@ -603,7 +603,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.673Z"
+      "timestamp": "2026-07-29T12:27:00.455Z"
     },
     {
       "id": "TC_PATIENT_055",
@@ -614,7 +614,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.673Z"
+      "timestamp": "2026-07-29T12:27:00.455Z"
     },
     {
       "id": "TC_PATIENT_056",
@@ -625,7 +625,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.674Z"
+      "timestamp": "2026-07-29T12:27:00.456Z"
     },
     {
       "id": "TC_PATIENT_057",
@@ -636,7 +636,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.674Z"
+      "timestamp": "2026-07-29T12:27:00.456Z"
     },
     {
       "id": "TC_PATIENT_058",
@@ -647,7 +647,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.674Z"
+      "timestamp": "2026-07-29T12:27:00.456Z"
     },
     {
       "id": "TC_PATIENT_059",
@@ -658,7 +658,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.675Z"
+      "timestamp": "2026-07-29T12:27:00.457Z"
     },
     {
       "id": "TC_PATIENT_060",
@@ -669,7 +669,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-29T11:42:26.675Z"
+      "timestamp": "2026-07-29T12:27:00.457Z"
     }
   ]
 }
