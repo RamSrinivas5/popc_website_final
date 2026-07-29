@@ -1,0 +1,42 @@
+name: 🧪 Comprehensive Test Suite (API, Unit, Threshold, Vulnerability)
+
+on:
+  push:
+    branches: [main, develop, master]
+  pull_request:
+    branches: [main, develop, master]
+  workflow_dispatch:
+
+jobs:
+  run-testing-suite:
+    name: ⚡ API, Unit, Threshold & Vulnerability Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout Code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'testing/package-lock.json'
+
+      - name: 📦 Install Testing Dependencies
+        run: |
+          cd testing
+          npm install
+
+      - name: 🧪 Run All 240 Tests
+        run: |
+          cd testing
+          node run-all.js
+
+      - name: 📤 Upload Excel & HTML Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-test-reports
+          path: |
+            testing/reports/Excel/POPC_Master_Test_Report.xlsx
+            testing/reports/HTML/execution-report.html

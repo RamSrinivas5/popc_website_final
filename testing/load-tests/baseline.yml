@@ -1,0 +1,115 @@
+# ============================================================
+# LOAD TEST — BASELINE (100 VUsers × 60s)
+# Artillery config for POPC API Load Testing
+# Threshold: p95 < 1000ms, error rate < 1%
+# ============================================================
+config:
+  target: "http://127.0.0.1:8000"
+  http:
+    timeout: 30
+    pool: 100
+  environments:
+    local:
+      target: "http://127.0.0.1:8000"
+    staging:
+      target: "http://staging.popc-hospital.com"
+    production:
+      target: "https://popc-hospital.com"
+
+  # ── THRESHOLDS (fail test if exceeded) ────────────────────
+  ensure:
+    thresholds:
+      - http.response_time.p95: 1000   # 95th percentile < 1s
+      - http.response_time.p99: 2000   # 99th percentile < 2s
+      - http.response_time.max: 5000   # No response > 5s
+    conditions:
+      - expression: "(counters['http.codes.200'] || 0) / (counters['http.requests'] || 1) > 0.99"
+        description: "Success rate > 99%"
+
+  # ── PAYLOAD DATASETS ──────────────────────────────────────
+  payload:
+    - path: "data/users.csv"
+      fields:
+        - username
+        - password
+
+  # ── PLUGINS ───────────────────────────────────────────────
+  plugins:
+    ensure: {}
+
+  # ── PHASES ────────────────────────────────────────────────
+  phases:
+    - name: "Warm Up (10 users × 10s)"
+      duration: 10
+      arrivalRate: 10
+    - name: "Baseline Ramp Up (10 → 100 users × 20s)"
+      duration: 20
+      arrivalRate: 10
+      rampTo: 100
+    - name: "Baseline Sustained Load (100 users × 60s)"
+      duration: 60
+      arrivalRate: 100
+    - name: "Cool Down (100 → 10 users × 10s)"
+      duration: 10
+      arrivalRate: 100
+      rampTo: 10
+
+  # ── REPORT ────────────────────────────────────────────────
+  output: "load-tests/reports/baseline-results.json"
+
+# ── SCENARIO ──────────────────────────────────────────────────
+scenarios:
+  - name: "POPC API Baseline Load Flow"
+    weight: 100
+    flow:
+      # 1. Login
+      - post:
+          url: "/api/auth/login/"
+          json:
+            username: "{{ username }}"
+            password: "{{ password }}"
+          capture:
+            - json: "$.token"
+              as: "authToken"
+          expect:
+            - statusCode: [200, 400, 401, 404, 502, 503]
+
+      # 2. Get doctor profile
+      - get:
+          url: "/api/doctor/profile/"
+          headers:
+            Authorization: "Token {{ authToken }}"
+          expect:
+            - statusCode: [200, 401, 403, 404, 502, 503]
+
+      # 3. List patients
+      - get:
+          url: "/api/patients/"
+          headers:
+            Authorization: "Token {{ authToken }}"
+          expect:
+            - statusCode: [200, 401, 403, 404, 502, 503]
+
+      # 4. Get dashboard
+      - get:
+          url: "/api/dashboard/"
+          headers:
+            Authorization: "Token {{ authToken }}"
+          expect:
+            - statusCode: [200, 401, 403, 404, 502, 503]
+
+      # 5. Get pending surveys
+      - get:
+          url: "/api/dashboard/pending/"
+          headers:
+            Authorization: "Token {{ authToken }}"
+          expect:
+            - statusCode: [200, 401, 403, 404, 502, 503]
+
+      # 6. Get high risk list
+      - get:
+          url: "/api/dashboard/high-risk/"
+          headers:
+            Authorization: "Token {{ authToken }}"
+          expect:
+            - statusCode: [200, 401, 403, 404, 502, 503]

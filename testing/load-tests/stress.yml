@@ -1,0 +1,38 @@
+# ============================================================
+# STRESS TEST — Ramp to 300 VUsers until breaking point
+# ============================================================
+config:
+  target: "http://127.0.0.1:8000"
+  http:
+    timeout: 30
+  phases:
+    - name: "Ramp 10 → 300 users (60s)"
+      duration: 60
+      arrivalRate: 10
+      rampTo: 300
+    - name: "Hold at 300 users (60s)"
+      duration: 60
+      arrivalRate: 300
+    - name: "Ramp Down 300 → 0 (30s)"
+      duration: 30
+      arrivalRate: 300
+      rampTo: 0
+
+scenarios:
+  - name: "Stress Test Flow"
+    flow:
+      - post:
+          url: "/api/auth/login/"
+          json:
+            username: "testdoctor"
+            password: "TestPass@123"
+          expect:
+            - statusCode: [200, 400, 401, 429, 500, 502, 503]
+      - get:
+          url: "/api/patients/"
+          expect:
+            - statusCode: [200, 401, 403, 429, 500, 502, 503]
+      - get:
+          url: "/api/dashboard/"
+          expect:
+            - statusCode: [200, 401, 403, 429, 500, 502, 503]

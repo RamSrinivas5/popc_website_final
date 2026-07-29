@@ -1,0 +1,29 @@
+{
+  "name": "popc-testing-suite",
+  "version": "1.0.0",
+  "description": "Complete POPC Testing Suite: API, Unit, Load (with Thresholds), Vulnerability",
+  "type": "commonjs",
+  "scripts": {
+    "test:api":           "node api-tests/runner.js",
+    "test:unit":          "node unit-tests/runner.js",
+    "test:load":          "npx artillery run load-tests/baseline.yml --output load-tests/reports/results.json",
+    "test:load:spike":    "npx artillery run load-tests/spike.yml",
+    "test:load:stress":   "npx artillery run load-tests/stress.yml",
+    "test:load:report":   "npx artillery report load-tests/reports/results.json --output load-tests/reports/load-report.html",
+    "test:vulnerability": "node vulnerability-tests/runner.js",
+    "test:all":           "node run-all.js",
+    "report:excel":       "node utils/excelReporter.js",
+    "report:html":        "node utils/htmlReporter.js",
+    "report:all":         "node utils/generateReports.js"
+  },
+  "dependencies": {
+    "axios":        "^1.7.9",
+    "chai":         "^5.1.2",
+    "exceljs":      "^4.4.0",
+    "winston":      "^3.17.0",
+    "dotenv":       "^16.4.5",
+    "node-fetch":   "^2.7.0",
+    "mocha":        "^10.8.2",
+    "chalk":        "^4.1.2"
+  }
+}

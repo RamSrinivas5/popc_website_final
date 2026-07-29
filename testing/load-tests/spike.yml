@@ -1,0 +1,38 @@
+# ============================================================
+# SPIKE TEST — 500 VUsers for 30s (Sudden Traffic Spike)
+# ============================================================
+config:
+  target: "http://127.0.0.1:8000"
+  http:
+    timeout: 30
+  ensure:
+    thresholds:
+      - http.response_time.p99: 3000    # Spike allows p99 < 3s
+    conditions:
+      - expression: "(counters['http.codes.200'] || 0) / (counters['http.requests'] || 1) > 0.90"
+        description: "Success rate > 90% under spike"
+  phases:
+    - name: "Normal Load (50 users × 10s)"
+      duration: 10
+      arrivalRate: 50
+    - name: "Spike (500 users × 30s)"
+      duration: 30
+      arrivalRate: 500
+    - name: "Recovery (50 users × 20s)"
+      duration: 20
+      arrivalRate: 50
+
+scenarios:
+  - name: "Spike Load Flow"
+    flow:
+      - post:
+          url: "/api/auth/login/"
+          json:
+            username: "testdoctor"
+            password: "TestPass@123"
+          expect:
+            - statusCode: [200, 400, 401, 429, 502, 503]
+      - get:
+          url: "/api/patients/"
+          expect:
+            - statusCode: [200, 401, 403, 429, 502, 503]

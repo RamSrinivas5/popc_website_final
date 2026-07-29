@@ -1,0 +1,2772 @@
+{
+  "summary": {
+    "total": 240,
+    "passed": 240,
+    "failed": 0,
+    "skipped": 0,
+    "passRate": "100.00",
+    "avgDuration": 2
+  },
+  "results": [
+    {
+      "id": "TC_API_001",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/login/ — Valid credentials returns token",
+      "status": "PASS",
+      "duration": 19,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.880Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_002",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/login/ — Wrong password returns 400/401",
+      "status": "PASS",
+      "duration": 8,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.889Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_003",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/login/ — Empty body returns 400",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.891Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_004",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/login/ — Missing username returns 400",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.893Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_005",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/register/ — Required fields missing returns 400",
+      "status": "PASS",
+      "duration": 3,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.896Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_006",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/forgot-password/ — Valid email accepted",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.898Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_007",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/verify-otp/ — Invalid OTP returns 400",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.900Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_008",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/reset-password/ — Structural endpoint exists",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.901Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_009",
+      "module": "Auth",
+      "suite": "API",
+      "name": "GET /api/doctor/profile/ — Requires auth token",
+      "status": "PASS",
+      "duration": 3,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.904Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_010",
+      "module": "Auth",
+      "suite": "API",
+      "name": "GET /api/doctor/profile/ — With invalid token returns 401",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.906Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_011",
+      "module": "Auth",
+      "suite": "API",
+      "name": "POST /api/auth/logout/ — Endpoint responds",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.908Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_012",
+      "module": "Auth",
+      "suite": "API",
+      "name": "Login response schema contains token key",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.909Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_013",
+      "module": "Auth",
+      "suite": "API",
+      "name": "Login with SQL injection does not cause 500",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.911Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_014",
+      "module": "Auth",
+      "suite": "API",
+      "name": "Login with XSS payload does not cause 500",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.913Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_015",
+      "module": "Auth",
+      "suite": "API",
+      "name": "Content-Type header is application/json in response",
+      "status": "PASS",
+      "duration": 4,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.917Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_016",
+      "module": "Patients",
+      "suite": "API",
+      "name": "GET /api/patients/ — List endpoint responds",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.919Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_017",
+      "module": "Patients",
+      "suite": "API",
+      "name": "POST /api/patients/ — Create without auth = 401",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.920Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_018",
+      "module": "Patients",
+      "suite": "API",
+      "name": "GET /api/patients/1/ — Detail endpoint responds",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.921Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_019",
+      "module": "Patients",
+      "suite": "API",
+      "name": "PUT /api/patients/1/ — Update endpoint responds",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.922Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_020",
+      "module": "Patients",
+      "suite": "API",
+      "name": "DELETE /api/patients/1/ — Delete endpoint exists",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.924Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_021",
+      "module": "Patients",
+      "suite": "API",
+      "name": "GET /api/patients/?search=John — Search works",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.925Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_022",
+      "module": "Patients",
+      "suite": "API",
+      "name": "GET /api/patients/?page=1 — Pagination works",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.927Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_023",
+      "module": "Patients",
+      "suite": "API",
+      "name": "GET /api/patients/ — Response is array or paginated object",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.928Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_024",
+      "module": "Patients",
+      "suite": "API",
+      "name": "GET /api/patients/9999/ — Non-existent patient returns 404",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.929Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_025",
+      "module": "Patients",
+      "suite": "API",
+      "name": "POST /api/patients/ — Missing required fields returns 400",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.931Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_026",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/ — Survey list endpoint",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.932Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_027",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/ — Survey detail endpoint",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.934Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_028",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/demographics/ — Demographics",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.935Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_029",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/medical-history/ — MedHistory",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.936Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_030",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/surgery-factors/ — Surgery",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.937Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_031",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/preoperative/ — Preop",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.938Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_032",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/postoperative/ — Postop",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.939Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_033",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/anesthesia/ — Anesthesia",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.940Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_034",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "GET /api/surveys/1/score/ — Risk score",
+      "status": "PASS",
+      "duration": 8,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.948Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_035",
+      "module": "Surveys",
+      "suite": "API",
+      "name": "POST /api/surveys/1/demographics/ — Submit demo",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.950Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_036",
+      "module": "Dashboard",
+      "suite": "API",
+      "name": "GET /api/dashboard/ — Dashboard summary",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.952Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_037",
+      "module": "Dashboard",
+      "suite": "API",
+      "name": "GET /api/dashboard/pending/ — Pending surveys",
+      "status": "PASS",
+      "duration": 8,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.960Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_038",
+      "module": "Dashboard",
+      "suite": "API",
+      "name": "GET /api/dashboard/high-risk/ — High risk list",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.962Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_039",
+      "module": "Chat",
+      "suite": "API",
+      "name": "POST /api/chat/ — Chat endpoint exists",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.963Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_040",
+      "module": "Chat",
+      "suite": "API",
+      "name": "POST /api/chat/ — Empty message returns 400",
+      "status": "PASS",
+      "duration": 3,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.966Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_041",
+      "module": "Chat",
+      "suite": "API",
+      "name": "POST /api/chat/ — Very long message handled",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.968Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_042",
+      "module": "Settings",
+      "suite": "API",
+      "name": "POST /api/settings/change-password/",
+      "status": "PASS",
+      "duration": 3,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.971Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_043",
+      "module": "Settings",
+      "suite": "API",
+      "name": "POST /api/settings/change-username/",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.972Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_044",
+      "module": "Settings",
+      "suite": "API",
+      "name": "DELETE /api/settings/delete-account/",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.974Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_045",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 45",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.975Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_046",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 46",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.977Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_047",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 47",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.978Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_048",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 48",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.980Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_049",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 49",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.982Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_050",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 50",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.983Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_051",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 51",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.985Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_052",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 52",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.987Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_053",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 53",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.989Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_054",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 54",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.990Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_055",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 55",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.992Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_056",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 56",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.993Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_057",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 57",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.995Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_058",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 58",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.997Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_059",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 59",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:51.998Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_API_060",
+      "module": "General",
+      "suite": "API",
+      "name": "API structural scenario 60",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.000Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_001",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: apiBase is a non-empty string",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_002",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: validUser has username and password",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_003",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: thresholds.responseTime.p95 < p99",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_004",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: errorRate is between 0 and 1",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_005",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: endpoints.login starts with /api",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_006",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: endpoints.patients is a string",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_007",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: patientDetail returns correct URL",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_008",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: surveyDetail returns correct URL",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_009",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: score endpoint returns correct URL",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_010",
+      "module": "Config",
+      "suite": "Unit",
+      "name": "Config: loadTest.baselineUsers is 100",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.001Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_011",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "parseToken: extracts token from {token: ...}",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_012",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "parseToken: extracts access from {access: ...}",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_013",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "parseToken: returns null for empty response",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_014",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "parseToken: returns null for no token key",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_015",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isStrongPassword: strong password passes",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_016",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isStrongPassword: no uppercase fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_017",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isStrongPassword: no number fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_018",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isStrongPassword: no special char fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_019",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isStrongPassword: too short fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.002Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_020",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isValidEmail: valid email passes",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_021",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isValidEmail: no @ fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_022",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isValidEmail: no domain fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_023",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "isValidEmail: spaces invalid",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_024",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "Token storage key is \"popc_token\"",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_025",
+      "module": "Auth Logic",
+      "suite": "Unit",
+      "name": "Auth header format is \"Token {token}\"",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_026",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: valid patient passes",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.003Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_027",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: empty first_name fails",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_028",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: empty last_name fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_029",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: invalid phone fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_030",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: valid phone passes",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_031",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: invalid email fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_032",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "formatPatientName: returns Last, First format",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_033",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "calculateAge: age for 1980 patient is 40+",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_034",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "calculateAge: future DOB returns negative",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_035",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "getBloodTypeLabel: A+ maps to A Positive",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_036",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "getBloodTypeLabel: unknown type returns as-is",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_037",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: single-char name fails",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_038",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "validatePatient: name with spaces is trimmed",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.004Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_039",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "Patient search filter: case insensitive match",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.005Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_040",
+      "module": "Patient",
+      "suite": "Unit",
+      "name": "Patient list: sorting by last name",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.007Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_041",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "calculateRiskScore: high-risk patient scores ≥ 7",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_042",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "calculateRiskScore: healthy young patient scores 0",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_043",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "getRiskLevel: score 8 = HIGH",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_044",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "getRiskLevel: score 5 = MEDIUM",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_045",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "getRiskLevel: score 2 = LOW",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_046",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "getRiskLevel: score 0 = LOW",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_047",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "isSurveyComplete: all completed = true",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_048",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "isSurveyComplete: one missing = false",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_049",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "getSurveyProgress: 3/6 = 50%",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_050",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "getSurveyProgress: 0/6 = 0%",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_051",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "BMI calculation: 70kg/1.75m = 22.86",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_052",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "Age >65 adds to risk score",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_053",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "Heart disease is highest single factor (3 pts)",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.008Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_054",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "Multiple comorbidities stack correctly",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.009Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_055",
+      "module": "Survey",
+      "suite": "Unit",
+      "name": "Survey section names are valid strings",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.009Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_056",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "formatDate: ISO string formats correctly",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.011Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_057",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "isValidDate: valid date string returns true",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.011Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_058",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "isValidDate: invalid date string returns false",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.011Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_059",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "daysBetween: 2024-01-01 and 2024-01-08 = 7",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.011Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_060",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "truncate: string longer than max gets truncated",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.011Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_061",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "truncate: string shorter than max is unchanged",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.011Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_062",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "capitalize: lowercase string gets capitalized",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_063",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "capitalize: all-caps string lowercased then cap",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_064",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "slugify: converts spaces to hyphens",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_065",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "slugify: removes special chars",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_066",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "clamp: value below min clamped to min",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_067",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "clamp: value above max clamped to max",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_068",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "clamp: value in range unchanged",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_069",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "roundTo: 2 decimal places",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_070",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "toPercent: 1/4 = 25",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_071",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "toPercent: 0 denominator returns 0",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_072",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "groupBy: groups array items correctly",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.012Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_073",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "uniqueBy: removes duplicate keys",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_074",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "buildQueryString: builds correct query",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_075",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "extractErrorMessage: extracts from detail",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_076",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "extractErrorMessage: falls back to message",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_077",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "extractErrorMessage: unknown returns default",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_078",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "Array of patient statuses is non-empty",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_079",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "Survey section count is exactly 6",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_UNIT_080",
+      "module": "Utils",
+      "suite": "Unit",
+      "name": "Config thresholds form a valid hierarchy",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.013Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_001",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: POST /api/auth/login/",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.017Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_002",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: GET /api/patients/",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.019Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_003",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: GET /api/dashboard/",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.020Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_004",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: GET /api/dashboard/pending/",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.022Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_005",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: GET /api/dashboard/high-risk/",
+      "status": "PASS",
+      "duration": 3,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.025Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_006",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: GET /api/surveys/",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.027Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_007",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: POST /api/chat/",
+      "status": "PASS",
+      "duration": 3,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.030Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_008",
+      "module": "Response Time",
+      "suite": "Threshold",
+      "name": "Response time < 5000ms: GET /api/doctor/profile/",
+      "status": "PASS",
+      "duration": 6,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.036Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_009",
+      "module": "Latency",
+      "suite": "Threshold",
+      "name": "Login: 5 sequential requests all under max threshold",
+      "status": "PASS",
+      "duration": 10,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.046Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_010",
+      "module": "Latency",
+      "suite": "Threshold",
+      "name": "Patient list: average of 5 requests < p95 threshold",
+      "status": "PASS",
+      "duration": 10,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.056Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_011",
+      "module": "Concurrency",
+      "suite": "Threshold",
+      "name": "10 concurrent login requests all within max",
+      "status": "PASS",
+      "duration": 12,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.068Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_012",
+      "module": "Concurrency",
+      "suite": "Threshold",
+      "name": "25 concurrent patient list requests within threshold",
+      "status": "PASS",
+      "duration": 23,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.091Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_013",
+      "module": "Concurrency",
+      "suite": "Threshold",
+      "name": "50 concurrent requests — no timeout spike",
+      "status": "PASS",
+      "duration": 36,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.127Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_014",
+      "module": "Error Rate",
+      "suite": "Threshold",
+      "name": "Error rate: 10 requests to login — within threshold",
+      "status": "PASS",
+      "duration": 11,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.139Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_015",
+      "module": "Error Rate",
+      "suite": "Threshold",
+      "name": "No internal server errors (500) on valid endpoints",
+      "status": "PASS",
+      "duration": 5,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.144Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_016",
+      "module": "Availability",
+      "suite": "Threshold",
+      "name": "Availability: health check responds (not 500)",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.145Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_017",
+      "module": "Availability",
+      "suite": "Threshold",
+      "name": "Availability: API prefix responds",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.146Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_018",
+      "module": "Payload",
+      "suite": "Threshold",
+      "name": "Large payload (10KB) handled within threshold",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.148Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_019",
+      "module": "Payload",
+      "suite": "Threshold",
+      "name": "Empty body request returns within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.149Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_020",
+      "module": "Payload",
+      "suite": "Threshold",
+      "name": "Unicode body handled within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.150Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_021",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "p50 threshold < p95 threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_022",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "p95 threshold < p99 threshold",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_023",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "p99 threshold < max threshold",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_024",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "errorRate < 0.05 (5%)",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_025",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "RPS threshold >= 50",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_026",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "Availability threshold >= 99%",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_027",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "Max response time < 10s",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_028",
+      "module": "Config",
+      "suite": "Threshold",
+      "name": "p50 response time < 1s",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_029",
+      "module": "Load",
+      "suite": "Threshold",
+      "name": "Baseline: 100 VUsers is configured",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_030",
+      "module": "Load",
+      "suite": "Threshold",
+      "name": "Spike: 500 VUsers is configured",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_031",
+      "module": "Load",
+      "suite": "Threshold",
+      "name": "Stress: 300 VUsers is configured",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_032",
+      "module": "Load",
+      "suite": "Threshold",
+      "name": "Duration: 60 seconds is configured",
+      "status": "PASS",
+      "duration": 0,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.151Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_033",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 33 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.152Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_034",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 34 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.154Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_035",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 35 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.155Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_036",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 36 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.156Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_037",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 37 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.157Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_038",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 38 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.158Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_039",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 39 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.159Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_THRESH_040",
+      "module": "Mixed",
+      "suite": "Threshold",
+      "name": "Mixed concurrent scenario 40 within threshold",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.160Z",
+      "metadata": {}
+    },
+    {
+      "id": "TC_VUL_001",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [' OR '1'='1]",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.164Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_002",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [' OR 1=1 --]",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.166Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_003",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username ['; DROP TABLE users;]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.167Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_004",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [1' AND '1'='1]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.168Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_005",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [' UNION SELECT * FRO]",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.170Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_006",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [admin'--]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.171Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_007",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [' OR 'x'='x]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.172Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_008",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [1; SELECT * FROM use]",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.174Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_009",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [' OR 1=1#]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.175Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_010",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "SQL Injection: login username [\" OR \"\"=\"]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.176Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_011",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: No token on protected endpoint returns 401/403",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.178Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_012",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: Invalid token returns 401/403",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.180Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_013",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: Empty token returns 401/403",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.181Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_014",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: Bearer instead of Token rejected",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.183Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_015",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: Forged admin token rejected",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.184Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_016",
+      "module": "Auth Bypass",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: JWT none algorithm attack",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.186Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_017",
+      "module": "Auth Bypass",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: Null byte in credentials",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.187Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_018",
+      "module": "Auth Bypass",
+      "suite": "Vulnerability",
+      "name": "Auth Bypass: HTTP method override attack",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.188Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_019",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth: Brute force — 20 wrong attempts not causing lockout bypass",
+      "status": "PASS",
+      "duration": 12,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.200Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_020",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "Auth: Password in query string not accepted",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.202Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_021",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [<script>alert(\"xss\")</scr]",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.204Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_022",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [<img src=x onerror=alert(]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.205Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_023",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [javascript:alert(1)]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.206Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_024",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [<svg onload=alert(1)>]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.207Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_025",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [\"><script>alert(1)</scrip]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.208Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_026",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [';alert('xss')//]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.209Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_027",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [<iframe src=\"javascript:a]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.210Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_028",
+      "module": "XSS",
+      "suite": "Vulnerability",
+      "name": "XSS: Login with payload [<body onload=alert(1)>]",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.211Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_029",
+      "module": "Security Headers",
+      "suite": "Vulnerability",
+      "name": "Security Header: X-Content-Type-Options present",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.213Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_030",
+      "module": "Security Headers",
+      "suite": "Vulnerability",
+      "name": "Security Header: X-Frame-Options present",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.214Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_031",
+      "module": "Security Headers",
+      "suite": "Vulnerability",
+      "name": "Security Header: No Server version disclosure",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.216Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_032",
+      "module": "Security Headers",
+      "suite": "Vulnerability",
+      "name": "Security Header: No X-Powered-By disclosure",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.217Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_033",
+      "module": "Security Headers",
+      "suite": "Vulnerability",
+      "name": "Security Header: Strict-Transport-Security (HTTPS only)",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.219Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_034",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Security: Error response does not leak stack trace",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.220Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_035",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Security: Debug mode not exposing admin endpoints",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.221Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_036",
+      "module": "CORS",
+      "suite": "Vulnerability",
+      "name": "CORS: Malicious origin is not reflected in Access-Control-Allow-Origin",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.223Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_037",
+      "module": "CORS",
+      "suite": "Vulnerability",
+      "name": "CORS: Wildcard not used on authenticated endpoints",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.224Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_038",
+      "module": "CORS",
+      "suite": "Vulnerability",
+      "name": "CORS: OPTIONS preflight returns appropriate headers",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.225Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_039",
+      "module": "CORS",
+      "suite": "Vulnerability",
+      "name": "CORS: null Origin rejected",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.226Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_040",
+      "module": "CORS",
+      "suite": "Vulnerability",
+      "name": "CORS: Subdomain origin not blindly trusted",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.228Z",
+      "metadata": {
+        "severity": "MEDIUM"
+      }
+    },
+    {
+      "id": "TC_VUL_041",
+      "module": "Rate Limiting",
+      "suite": "Vulnerability",
+      "name": "Rate Limiting: 30 rapid login requests trigger 429 or are handled",
+      "status": "PASS",
+      "duration": 20,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.248Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_042",
+      "module": "Rate Limiting",
+      "suite": "Vulnerability",
+      "name": "Rate Limiting: 50 concurrent patient requests handled",
+      "status": "PASS",
+      "duration": 27,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.275Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_043",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "IDOR: Access other doctor patient without auth",
+      "status": "PASS",
+      "duration": 4,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.279Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_044",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "IDOR: Access admin endpoint without auth",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.280Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_045",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "Path traversal: /../../../etc/passwd rejected",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.282Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_046",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "Path traversal: /api/..%2F..%2Fetc%2Fpasswd",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.284Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_047",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "HTTP verb tampering: PUT to login endpoint",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.285Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_048",
+      "module": "Broken Auth",
+      "suite": "Vulnerability",
+      "name": "HTTP verb tampering: PATCH to login endpoint",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.287Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_049",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Login response does not include raw password",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.289Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_050",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Error response does not include database schema",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.290Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_051",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Login failure does not distinguish user exists vs wrong password",
+      "status": "PASS",
+      "duration": 4,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.294Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_052",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Profile endpoint does not expose hashed password",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.295Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    },
+    {
+      "id": "TC_VUL_053",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "Command injection in username field rejected",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.297Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_054",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "Template injection (SSTI) rejected",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.299Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_055",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "CRLF injection in headers rejected",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.300Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_056",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "XXE injection rejected (XML payload)",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.302Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_057",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "Mass assignment: extra fields not persisted",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.303Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_058",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "ReDoS: Extremely long input does not cause timeout",
+      "status": "PASS",
+      "duration": 2,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.305Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_059",
+      "module": "Injection",
+      "suite": "Vulnerability",
+      "name": "JSON bomb: deeply nested JSON rejected",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.306Z",
+      "metadata": {
+        "severity": "HIGH"
+      }
+    },
+    {
+      "id": "TC_VUL_060",
+      "module": "Information Disclosure",
+      "suite": "Vulnerability",
+      "name": "Security: No internal IP disclosure in error responses",
+      "status": "PASS",
+      "duration": 1,
+      "error": null,
+      "timestamp": "2026-07-29T12:09:52.307Z",
+      "metadata": {
+        "severity": "LOW"
+      }
+    }
+  ]
+}
