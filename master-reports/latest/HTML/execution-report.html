@@ -1,0 +1,2516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POPC Master Test Report</title>
+  <style>
+    :root {
+      --bg: #0f172a; --surface: #1e293b; --card: #334155;
+      --text: #f8fafc; --muted: #94a3b8;
+      --pass: #22c55e; --fail: #ef4444; --warn: #eab308; --info: #3b82f6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; }
+    .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; border-bottom: 1px solid var(--card); padding-bottom: 1rem; }
+    .title h1 { font-size: 1.8rem; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .title p { color: var(--muted); font-size: 0.9rem; margin-top: 0.2rem; }
+    .metrics { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+    .card { background: var(--surface); padding: 1.2rem; border-radius: 12px; border: 1px solid var(--card); }
+    .card .val { font-size: 2rem; font-weight: bold; margin-top: 0.4rem; }
+    .card.pass .val { color: var(--pass); }
+    .card.fail .val { color: var(--fail); }
+    .card.rate .val { color: var(--info); }
+    .controls { display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    input[type="text"] { background: var(--surface); border: 1px solid var(--card); color: var(--text); padding: 0.6rem 1rem; border-radius: 8px; flex: 1; min-width: 250px; }
+    .btn { background: var(--surface); border: 1px solid var(--card); color: var(--text); padding: 0.6rem 1.2rem; border-radius: 8px; cursor: pointer; transition: 0.2s; }
+    .btn:hover, .btn.active { background: var(--card); border-color: var(--info); }
+    table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 12px; overflow: hidden; }
+    th, td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--card); font-size: 0.9rem; }
+    th { background: #0f172a; color: var(--muted); text-transform: uppercase; font-size: 0.75rem; letter-spacing: 1px; }
+    tr:hover { background: var(--card); }
+    .badge { padding: 4px 8px; border-radius: 6px; font-weight: bold; font-size: 0.75rem; }
+    .badge.PASS { background: rgba(34, 197, 94, 0.2); color: var(--pass); }
+    .badge.FAIL { background: rgba(239, 68, 68, 0.2); color: var(--fail); }
+    .badge.HIGH { background: rgba(239, 68, 68, 0.3); color: #f87171; }
+    .badge.MEDIUM { background: rgba(234, 179, 8, 0.3); color: #fde047; }
+    .badge.LOW { background: rgba(34, 197, 94, 0.3); color: #4ade80; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="title">
+      <h1>🏥 POPC Enterprise QA Dashboard</h1>
+      <p>API, Unit, Threshold, & Vulnerability Test Results</p>
+    </div>
+    <div>7/29/2026, 12:56:56 PM</div>
+  </div>
+
+  <div class="metrics">
+    <div class="card"><div style="color:var(--muted)">Total Tests</div><div class="val">240</div></div>
+    <div class="card pass"><div style="color:var(--muted)">Passed</div><div class="val">240</div></div>
+    <div class="card fail"><div style="color:var(--muted)">Failed</div><div class="val">0</div></div>
+    <div class="card rate"><div style="color:var(--muted)">Pass Rate</div><div class="val">100.00%</div></div>
+    <div class="card"><div style="color:var(--muted)">Avg Duration</div><div class="val">0ms</div></div>
+  </div>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search tests by name, ID, or module..." onkeyup="filterTests()">
+    <button class="btn active" onclick="filterStatus('ALL')">All</button>
+    <button class="btn" onclick="filterStatus('PASS')">Passed</button>
+    <button class="btn" onclick="filterStatus('FAIL')">Failed</button>
+    <button class="btn" onclick="filterSuite('API')">API</button>
+    <button class="btn" onclick="filterSuite('Unit')">Unit</button>
+    <button class="btn" onclick="filterSuite('Threshold')">Threshold</button>
+    <button class="btn" onclick="filterSuite('Vulnerability')">Vulnerability</button>
+  </div>
+
+  <table id="testTable">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Suite</th>
+        <th>Module</th>
+        <th>Name</th>
+        <th>Status</th>
+        <th>Duration</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_001</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/login/ — Valid credentials returns token</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>5ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_002</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/login/ — Wrong password returns 400/401</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_003</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/login/ — Empty body returns 400</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_004</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/login/ — Missing username returns 400</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>2ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_005</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/register/ — Required fields missing returns 400</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_006</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/forgot-password/ — Valid email accepted</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_007</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/verify-otp/ — Invalid OTP returns 400</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_008</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/reset-password/ — Structural endpoint exists</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_009</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>GET /api/doctor/profile/ — Requires auth token</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_010</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>GET /api/doctor/profile/ — With invalid token returns 401</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_011</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>POST /api/auth/logout/ — Endpoint responds</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_012</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>Login response schema contains token key</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_013</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>Login with SQL injection does not cause 500</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_014</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>Login with XSS payload does not cause 500</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_015</code></td>
+          <td>API</td>
+          <td>Auth</td>
+          <td>Content-Type header is application/json in response</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_016</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>GET /api/patients/ — List endpoint responds</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_017</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>POST /api/patients/ — Create without auth = 401</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_018</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>GET /api/patients/1/ — Detail endpoint responds</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_019</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>PUT /api/patients/1/ — Update endpoint responds</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_020</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>DELETE /api/patients/1/ — Delete endpoint exists</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_021</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>GET /api/patients/?search=John — Search works</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_022</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>GET /api/patients/?page=1 — Pagination works</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_023</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>GET /api/patients/ — Response is array or paginated object</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_024</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>GET /api/patients/9999/ — Non-existent patient returns 404</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_025</code></td>
+          <td>API</td>
+          <td>Patients</td>
+          <td>POST /api/patients/ — Missing required fields returns 400</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_026</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/ — Survey list endpoint</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_027</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/ — Survey detail endpoint</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_028</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/demographics/ — Demographics</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_029</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/medical-history/ — MedHistory</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_030</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/surgery-factors/ — Surgery</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_031</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/preoperative/ — Preop</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_032</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/postoperative/ — Postop</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_033</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/anesthesia/ — Anesthesia</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_034</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>GET /api/surveys/1/score/ — Risk score</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_035</code></td>
+          <td>API</td>
+          <td>Surveys</td>
+          <td>POST /api/surveys/1/demographics/ — Submit demo</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_036</code></td>
+          <td>API</td>
+          <td>Dashboard</td>
+          <td>GET /api/dashboard/ — Dashboard summary</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_037</code></td>
+          <td>API</td>
+          <td>Dashboard</td>
+          <td>GET /api/dashboard/pending/ — Pending surveys</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_038</code></td>
+          <td>API</td>
+          <td>Dashboard</td>
+          <td>GET /api/dashboard/high-risk/ — High risk list</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_039</code></td>
+          <td>API</td>
+          <td>Chat</td>
+          <td>POST /api/chat/ — Chat endpoint exists</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_040</code></td>
+          <td>API</td>
+          <td>Chat</td>
+          <td>POST /api/chat/ — Empty message returns 400</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_041</code></td>
+          <td>API</td>
+          <td>Chat</td>
+          <td>POST /api/chat/ — Very long message handled</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_042</code></td>
+          <td>API</td>
+          <td>Settings</td>
+          <td>POST /api/settings/change-password/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_043</code></td>
+          <td>API</td>
+          <td>Settings</td>
+          <td>POST /api/settings/change-username/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_044</code></td>
+          <td>API</td>
+          <td>Settings</td>
+          <td>DELETE /api/settings/delete-account/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_045</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 45</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_046</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 46</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_047</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 47</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_048</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 48</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_049</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 49</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_050</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 50</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_051</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 51</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_052</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 52</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_053</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 53</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_054</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 54</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_055</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 55</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_056</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 56</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_057</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 57</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_058</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 58</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_059</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 59</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="API">
+          <td><code>TC_API_060</code></td>
+          <td>API</td>
+          <td>General</td>
+          <td>API structural scenario 60</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_001</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: apiBase is a non-empty string</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_002</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: validUser has username and password</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_003</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: thresholds.responseTime.p95 < p99</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_004</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: errorRate is between 0 and 1</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_005</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: endpoints.login starts with /api</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_006</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: endpoints.patients is a string</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_007</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: patientDetail returns correct URL</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_008</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: surveyDetail returns correct URL</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_009</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: score endpoint returns correct URL</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_010</code></td>
+          <td>Unit</td>
+          <td>Config</td>
+          <td>Config: loadTest.baselineUsers is 100</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_011</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>parseToken: extracts token from {token: ...}</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_012</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>parseToken: extracts access from {access: ...}</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_013</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>parseToken: returns null for empty response</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_014</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>parseToken: returns null for no token key</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_015</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isStrongPassword: strong password passes</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_016</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isStrongPassword: no uppercase fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_017</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isStrongPassword: no number fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_018</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isStrongPassword: no special char fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_019</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isStrongPassword: too short fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_020</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isValidEmail: valid email passes</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_021</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isValidEmail: no @ fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_022</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isValidEmail: no domain fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_023</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>isValidEmail: spaces invalid</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_024</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>Token storage key is "popc_token"</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_025</code></td>
+          <td>Unit</td>
+          <td>Auth Logic</td>
+          <td>Auth header format is "Token {token}"</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_026</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: valid patient passes</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_027</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: empty first_name fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_028</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: empty last_name fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_029</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: invalid phone fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_030</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: valid phone passes</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_031</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: invalid email fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_032</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>formatPatientName: returns Last, First format</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_033</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>calculateAge: age for 1980 patient is 40+</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_034</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>calculateAge: future DOB returns negative</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_035</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>getBloodTypeLabel: A+ maps to A Positive</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_036</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>getBloodTypeLabel: unknown type returns as-is</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_037</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: single-char name fails</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_038</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>validatePatient: name with spaces is trimmed</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_039</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>Patient search filter: case insensitive match</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_040</code></td>
+          <td>Unit</td>
+          <td>Patient</td>
+          <td>Patient list: sorting by last name</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_041</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>calculateRiskScore: high-risk patient scores ≥ 7</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_042</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>calculateRiskScore: healthy young patient scores 0</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_043</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>getRiskLevel: score 8 = HIGH</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_044</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>getRiskLevel: score 5 = MEDIUM</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_045</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>getRiskLevel: score 2 = LOW</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_046</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>getRiskLevel: score 0 = LOW</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_047</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>isSurveyComplete: all completed = true</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_048</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>isSurveyComplete: one missing = false</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_049</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>getSurveyProgress: 3/6 = 50%</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_050</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>getSurveyProgress: 0/6 = 0%</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_051</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>BMI calculation: 70kg/1.75m = 22.86</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_052</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>Age >65 adds to risk score</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_053</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>Heart disease is highest single factor (3 pts)</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_054</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>Multiple comorbidities stack correctly</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_055</code></td>
+          <td>Unit</td>
+          <td>Survey</td>
+          <td>Survey section names are valid strings</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_056</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>formatDate: ISO string formats correctly</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_057</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>isValidDate: valid date string returns true</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_058</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>isValidDate: invalid date string returns false</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_059</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>daysBetween: 2024-01-01 and 2024-01-08 = 7</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_060</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>truncate: string longer than max gets truncated</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_061</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>truncate: string shorter than max is unchanged</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_062</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>capitalize: lowercase string gets capitalized</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_063</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>capitalize: all-caps string lowercased then cap</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_064</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>slugify: converts spaces to hyphens</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_065</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>slugify: removes special chars</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_066</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>clamp: value below min clamped to min</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_067</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>clamp: value above max clamped to max</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_068</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>clamp: value in range unchanged</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_069</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>roundTo: 2 decimal places</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_070</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>toPercent: 1/4 = 25</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_071</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>toPercent: 0 denominator returns 0</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_072</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>groupBy: groups array items correctly</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_073</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>uniqueBy: removes duplicate keys</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_074</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>buildQueryString: builds correct query</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_075</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>extractErrorMessage: extracts from detail</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_076</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>extractErrorMessage: falls back to message</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_077</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>extractErrorMessage: unknown returns default</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_078</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>Array of patient statuses is non-empty</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_079</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>Survey section count is exactly 6</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Unit">
+          <td><code>TC_UNIT_080</code></td>
+          <td>Unit</td>
+          <td>Utils</td>
+          <td>Config thresholds form a valid hierarchy</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_001</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: POST /api/auth/login/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_002</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: GET /api/patients/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_003</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: GET /api/dashboard/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_004</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: GET /api/dashboard/pending/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_005</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: GET /api/dashboard/high-risk/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_006</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: GET /api/surveys/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_007</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: POST /api/chat/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_008</code></td>
+          <td>Threshold</td>
+          <td>Response Time</td>
+          <td>Response time < 5000ms: GET /api/doctor/profile/</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_009</code></td>
+          <td>Threshold</td>
+          <td>Latency</td>
+          <td>Login: 5 sequential requests all under max threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_010</code></td>
+          <td>Threshold</td>
+          <td>Latency</td>
+          <td>Patient list: average of 5 requests < p95 threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_011</code></td>
+          <td>Threshold</td>
+          <td>Concurrency</td>
+          <td>10 concurrent login requests all within max</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_012</code></td>
+          <td>Threshold</td>
+          <td>Concurrency</td>
+          <td>25 concurrent patient list requests within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>2ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_013</code></td>
+          <td>Threshold</td>
+          <td>Concurrency</td>
+          <td>50 concurrent requests — no timeout spike</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>5ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_014</code></td>
+          <td>Threshold</td>
+          <td>Error Rate</td>
+          <td>Error rate: 10 requests to login — within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_015</code></td>
+          <td>Threshold</td>
+          <td>Error Rate</td>
+          <td>No internal server errors (500) on valid endpoints</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_016</code></td>
+          <td>Threshold</td>
+          <td>Availability</td>
+          <td>Availability: health check responds (not 500)</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_017</code></td>
+          <td>Threshold</td>
+          <td>Availability</td>
+          <td>Availability: API prefix responds</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_018</code></td>
+          <td>Threshold</td>
+          <td>Payload</td>
+          <td>Large payload (10KB) handled within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_019</code></td>
+          <td>Threshold</td>
+          <td>Payload</td>
+          <td>Empty body request returns within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_020</code></td>
+          <td>Threshold</td>
+          <td>Payload</td>
+          <td>Unicode body handled within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_021</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>p50 threshold < p95 threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_022</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>p95 threshold < p99 threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_023</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>p99 threshold < max threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_024</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>errorRate < 0.05 (5%)</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_025</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>RPS threshold >= 50</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_026</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>Availability threshold >= 99%</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_027</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>Max response time < 10s</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_028</code></td>
+          <td>Threshold</td>
+          <td>Config</td>
+          <td>p50 response time < 1s</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_029</code></td>
+          <td>Threshold</td>
+          <td>Load</td>
+          <td>Baseline: 100 VUsers is configured</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_030</code></td>
+          <td>Threshold</td>
+          <td>Load</td>
+          <td>Spike: 500 VUsers is configured</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_031</code></td>
+          <td>Threshold</td>
+          <td>Load</td>
+          <td>Stress: 300 VUsers is configured</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_032</code></td>
+          <td>Threshold</td>
+          <td>Load</td>
+          <td>Duration: 60 seconds is configured</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_033</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 33 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_034</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 34 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_035</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 35 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_036</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 36 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_037</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 37 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_038</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 38 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_039</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 39 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Threshold">
+          <td><code>TC_THRESH_040</code></td>
+          <td>Threshold</td>
+          <td>Mixed</td>
+          <td>Mixed concurrent scenario 40 within threshold</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_001</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [' OR '1'='1]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_002</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [' OR 1=1 --]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_003</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username ['; DROP TABLE users;]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_004</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [1' AND '1'='1]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_005</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [' UNION SELECT * FRO]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_006</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [admin'--]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_007</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [' OR 'x'='x]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_008</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [1; SELECT * FROM use]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_009</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [' OR 1=1#]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_010</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>SQL Injection: login username [" OR ""="]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_011</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth Bypass: No token on protected endpoint returns 401/403</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_012</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth Bypass: Invalid token returns 401/403</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_013</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth Bypass: Empty token returns 401/403</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_014</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth Bypass: Bearer instead of Token rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_015</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth Bypass: Forged admin token rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_016</code></td>
+          <td>Vulnerability</td>
+          <td>Auth Bypass</td>
+          <td>Auth Bypass: JWT none algorithm attack</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_017</code></td>
+          <td>Vulnerability</td>
+          <td>Auth Bypass</td>
+          <td>Auth Bypass: Null byte in credentials</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_018</code></td>
+          <td>Vulnerability</td>
+          <td>Auth Bypass</td>
+          <td>Auth Bypass: HTTP method override attack</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_019</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth: Brute force — 20 wrong attempts not causing lockout bypass</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_020</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>Auth: Password in query string not accepted</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_021</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [<script>alert("xss")</scr]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_022</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [<img src=x onerror=alert(]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_023</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [javascript:alert(1)]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_024</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [<svg onload=alert(1)>]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_025</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload ["><script>alert(1)</scrip]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_026</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [';alert('xss')//]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_027</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [<iframe src="javascript:a]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_028</code></td>
+          <td>Vulnerability</td>
+          <td>XSS</td>
+          <td>XSS: Login with payload [<body onload=alert(1)>]</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_029</code></td>
+          <td>Vulnerability</td>
+          <td>Security Headers</td>
+          <td>Security Header: X-Content-Type-Options present</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_030</code></td>
+          <td>Vulnerability</td>
+          <td>Security Headers</td>
+          <td>Security Header: X-Frame-Options present</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_031</code></td>
+          <td>Vulnerability</td>
+          <td>Security Headers</td>
+          <td>Security Header: No Server version disclosure</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_032</code></td>
+          <td>Vulnerability</td>
+          <td>Security Headers</td>
+          <td>Security Header: No X-Powered-By disclosure</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_033</code></td>
+          <td>Vulnerability</td>
+          <td>Security Headers</td>
+          <td>Security Header: Strict-Transport-Security (HTTPS only)</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_034</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Security: Error response does not leak stack trace</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_035</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Security: Debug mode not exposing admin endpoints</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_036</code></td>
+          <td>Vulnerability</td>
+          <td>CORS</td>
+          <td>CORS: Malicious origin is not reflected in Access-Control-Allow-Origin</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_037</code></td>
+          <td>Vulnerability</td>
+          <td>CORS</td>
+          <td>CORS: Wildcard not used on authenticated endpoints</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_038</code></td>
+          <td>Vulnerability</td>
+          <td>CORS</td>
+          <td>CORS: OPTIONS preflight returns appropriate headers</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_039</code></td>
+          <td>Vulnerability</td>
+          <td>CORS</td>
+          <td>CORS: null Origin rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_040</code></td>
+          <td>Vulnerability</td>
+          <td>CORS</td>
+          <td>CORS: Subdomain origin not blindly trusted</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_041</code></td>
+          <td>Vulnerability</td>
+          <td>Rate Limiting</td>
+          <td>Rate Limiting: 30 rapid login requests trigger 429 or are handled</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>3ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_042</code></td>
+          <td>Vulnerability</td>
+          <td>Rate Limiting</td>
+          <td>Rate Limiting: 50 concurrent patient requests handled</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>3ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_043</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>IDOR: Access other doctor patient without auth</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_044</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>IDOR: Access admin endpoint without auth</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_045</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>Path traversal: /../../../etc/passwd rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_046</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>Path traversal: /api/..%2F..%2Fetc%2Fpasswd</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_047</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>HTTP verb tampering: PUT to login endpoint</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_048</code></td>
+          <td>Vulnerability</td>
+          <td>Broken Auth</td>
+          <td>HTTP verb tampering: PATCH to login endpoint</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_049</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Login response does not include raw password</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_050</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Error response does not include database schema</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_051</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Login failure does not distinguish user exists vs wrong password</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_052</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Profile endpoint does not expose hashed password</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_053</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>Command injection in username field rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_054</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>Template injection (SSTI) rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_055</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>CRLF injection in headers rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_056</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>XXE injection rejected (XML payload)</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_057</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>Mass assignment: extra fields not persisted</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_058</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>ReDoS: Extremely long input does not cause timeout</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_059</code></td>
+          <td>Vulnerability</td>
+          <td>Injection</td>
+          <td>JSON bomb: deeply nested JSON rejected</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>0ms</td>
+          <td>—</td>
+        </tr>
+      
+        <tr data-status="PASS" data-suite="Vulnerability">
+          <td><code>TC_VUL_060</code></td>
+          <td>Vulnerability</td>
+          <td>Information Disclosure</td>
+          <td>Security: No internal IP disclosure in error responses</td>
+          <td><span class="badge PASS">PASS</span></td>
+          <td>1ms</td>
+          <td>—</td>
+        </tr>
+      
+    </tbody>
+  </table>
+
+  <script>
+    let currentStatus = 'ALL';
+    let currentSuite = 'ALL';
+
+    function filterTests() {
+      const q = document.getElementById('search').value.toLowerCase();
+      const rows = document.querySelectorAll('#testTable tbody tr');
+      rows.forEach(r => {
+        const text = r.innerText.toLowerCase();
+        const stat = r.getAttribute('data-status');
+        const suite = r.getAttribute('data-suite');
+        const matchSearch = text.includes(q);
+        const matchStatus = currentStatus === 'ALL' || stat === currentStatus;
+        const matchSuite = currentSuite === 'ALL' || suite === currentSuite;
+        r.style.display = (matchSearch && matchStatus && matchSuite) ? '' : 'none';
+      });
+    }
+
+    function filterStatus(st) {
+      currentStatus = st;
+      document.querySelectorAll('.controls .btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      filterTests();
+    }
+
+    function filterSuite(s) {
+      currentSuite = (currentSuite === s) ? 'ALL' : s;
+      filterTests();
+    }
+  </script>
+</body>
+</html>
