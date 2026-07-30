@@ -7,9 +7,9 @@
   "blocked": 0,
   "passRate": "100.00%",
   "failRate": "0.00%",
-  "totalDuration": "0.05s",
-  "sessionStart": "2026-07-30T03:08:22.362Z",
-  "sessionEnd": "2026-07-30T03:08:22.702Z",
+  "totalDuration": "0.04s",
+  "sessionStart": "2026-07-30T11:51:43.301Z",
+  "sessionEnd": "2026-07-30T11:51:43.626Z",
   "results": [
     {
       "id": "TC_AUTH_001",
@@ -20,7 +20,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.779Z"
+      "timestamp": "2026-07-30T11:51:41.703Z"
     },
     {
       "id": "TC_AUTH_002",
@@ -31,7 +31,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.780Z"
+      "timestamp": "2026-07-30T11:51:41.704Z"
     },
     {
       "id": "TC_AUTH_003",
@@ -42,7 +42,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.781Z"
+      "timestamp": "2026-07-30T11:51:41.705Z"
     },
     {
       "id": "TC_AUTH_004",
@@ -50,10 +50,10 @@
       "name": "TC_AUTH_004 — Login with empty password shows validation",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.781Z"
+      "timestamp": "2026-07-30T11:51:41.706Z"
     },
     {
       "id": "TC_AUTH_005",
@@ -64,7 +64,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.782Z"
+      "timestamp": "2026-07-30T11:51:41.706Z"
     },
     {
       "id": "TC_AUTH_006",
@@ -72,10 +72,10 @@
       "name": "TC_AUTH_006 — Login page title is correct",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.783Z"
+      "timestamp": "2026-07-30T11:51:41.707Z"
     },
     {
       "id": "TC_AUTH_007",
@@ -86,7 +86,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.784Z"
+      "timestamp": "2026-07-30T11:51:41.708Z"
     },
     {
       "id": "TC_AUTH_008",
@@ -97,7 +97,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.784Z"
+      "timestamp": "2026-07-30T11:51:41.709Z"
     },
     {
       "id": "TC_AUTH_009",
@@ -105,10 +105,10 @@
       "name": "TC_AUTH_009 — Password field is visible on login page",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.785Z"
+      "timestamp": "2026-07-30T11:51:41.709Z"
     },
     {
       "id": "TC_AUTH_010",
@@ -119,7 +119,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.786Z"
+      "timestamp": "2026-07-30T11:51:41.710Z"
     },
     {
       "id": "TC_AUTH_011",
@@ -127,10 +127,10 @@
       "name": "TC_AUTH_011 — Invalid username shows error message",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.787Z"
+      "timestamp": "2026-07-30T11:51:41.711Z"
     },
     {
       "id": "TC_AUTH_012",
@@ -141,7 +141,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.787Z"
+      "timestamp": "2026-07-30T11:51:41.711Z"
     },
     {
       "id": "TC_AUTH_013",
@@ -149,10 +149,10 @@
       "name": "TC_AUTH_013 — Login with SQL injection does not break app",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.788Z"
+      "timestamp": "2026-07-30T11:51:41.712Z"
     },
     {
       "id": "TC_AUTH_014",
@@ -163,7 +163,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.789Z"
+      "timestamp": "2026-07-30T11:51:41.713Z"
     },
     {
       "id": "TC_AUTH_015",
@@ -174,7 +174,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.790Z"
+      "timestamp": "2026-07-30T11:51:41.714Z"
     },
     {
       "id": "TC_AUTH_016",
@@ -185,7 +185,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.790Z"
+      "timestamp": "2026-07-30T11:51:41.714Z"
     },
     {
       "id": "TC_AUTH_017",
@@ -196,7 +196,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.791Z"
+      "timestamp": "2026-07-30T11:51:41.715Z"
     },
     {
       "id": "TC_AUTH_018",
@@ -204,10 +204,10 @@
       "name": "TC_AUTH_018 — Password field obscures input",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.792Z"
+      "timestamp": "2026-07-30T11:51:41.716Z"
     },
     {
       "id": "TC_AUTH_019",
@@ -218,7 +218,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.793Z"
+      "timestamp": "2026-07-30T11:51:41.717Z"
     },
     {
       "id": "TC_AUTH_020",
@@ -226,10 +226,10 @@
       "name": "TC_AUTH_020 — Login with special characters in username",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.794Z"
+      "timestamp": "2026-07-30T11:51:41.718Z"
     },
     {
       "id": "TC_AUTH_021",
@@ -240,7 +240,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.794Z"
+      "timestamp": "2026-07-30T11:51:41.718Z"
     },
     {
       "id": "TC_AUTH_022",
@@ -248,10 +248,10 @@
       "name": "TC_AUTH_022 — Page source contains POPC brand identity",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.795Z"
+      "timestamp": "2026-07-30T11:51:41.719Z"
     },
     {
       "id": "TC_AUTH_023",
@@ -259,10 +259,10 @@
       "name": "TC_AUTH_023 — Login with correct credentials redirects to home",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.796Z"
+      "timestamp": "2026-07-30T11:51:41.720Z"
     },
     {
       "id": "TC_AUTH_024",
@@ -273,7 +273,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.796Z"
+      "timestamp": "2026-07-30T11:51:41.720Z"
     },
     {
       "id": "TC_AUTH_025",
@@ -284,7 +284,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.797Z"
+      "timestamp": "2026-07-30T11:51:41.721Z"
     },
     {
       "id": "TC_AUTH_026",
@@ -295,7 +295,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.797Z"
+      "timestamp": "2026-07-30T11:51:41.721Z"
     },
     {
       "id": "TC_AUTH_027",
@@ -306,7 +306,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.798Z"
+      "timestamp": "2026-07-30T11:51:41.722Z"
     },
     {
       "id": "TC_AUTH_028",
@@ -317,7 +317,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.798Z"
+      "timestamp": "2026-07-30T11:51:41.722Z"
     },
     {
       "id": "TC_AUTH_029",
@@ -328,7 +328,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.799Z"
+      "timestamp": "2026-07-30T11:51:41.723Z"
     },
     {
       "id": "TC_AUTH_030",
@@ -339,7 +339,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.800Z"
+      "timestamp": "2026-07-30T11:51:41.723Z"
     },
     {
       "id": "TC_AUTH_031",
@@ -350,7 +350,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.801Z"
+      "timestamp": "2026-07-30T11:51:41.724Z"
     },
     {
       "id": "TC_AUTH_032",
@@ -361,7 +361,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.801Z"
+      "timestamp": "2026-07-30T11:51:41.724Z"
     },
     {
       "id": "TC_AUTH_033",
@@ -372,7 +372,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.801Z"
+      "timestamp": "2026-07-30T11:51:41.725Z"
     },
     {
       "id": "TC_AUTH_034",
@@ -383,7 +383,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.802Z"
+      "timestamp": "2026-07-30T11:51:41.726Z"
     },
     {
       "id": "TC_AUTH_035",
@@ -391,10 +391,10 @@
       "name": "TC_AUTH_035 — Register with mismatched passwords shows error",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.803Z"
+      "timestamp": "2026-07-30T11:51:41.727Z"
     },
     {
       "id": "TC_AUTH_036",
@@ -402,10 +402,10 @@
       "name": "TC_AUTH_036 — Register with duplicate email shows error",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.803Z"
+      "timestamp": "2026-07-30T11:51:41.728Z"
     },
     {
       "id": "TC_AUTH_037",
@@ -413,10 +413,10 @@
       "name": "TC_AUTH_037 — Register with weak password shows strength indicator",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.804Z"
+      "timestamp": "2026-07-30T11:51:41.728Z"
     },
     {
       "id": "TC_AUTH_038",
@@ -427,7 +427,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.804Z"
+      "timestamp": "2026-07-30T11:51:41.729Z"
     },
     {
       "id": "TC_AUTH_039",
@@ -435,10 +435,10 @@
       "name": "TC_AUTH_039 — Register page has link back to login",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.805Z"
+      "timestamp": "2026-07-30T11:51:41.730Z"
     },
     {
       "id": "TC_AUTH_040",
@@ -446,10 +446,10 @@
       "name": "TC_AUTH_040 — Login error message disappears on retry",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.806Z"
+      "timestamp": "2026-07-30T11:51:41.731Z"
     },
     {
       "id": "TC_PATIENT_001",
@@ -457,10 +457,10 @@
       "name": "TC_PATIENT_001 — Patient management scenario 1",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.962Z"
+      "timestamp": "2026-07-30T11:51:41.884Z"
     },
     {
       "id": "TC_PATIENT_002",
@@ -471,7 +471,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.962Z"
+      "timestamp": "2026-07-30T11:51:41.885Z"
     },
     {
       "id": "TC_PATIENT_003",
@@ -482,7 +482,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.963Z"
+      "timestamp": "2026-07-30T11:51:41.885Z"
     },
     {
       "id": "TC_PATIENT_004",
@@ -493,7 +493,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.964Z"
+      "timestamp": "2026-07-30T11:51:41.885Z"
     },
     {
       "id": "TC_PATIENT_005",
@@ -504,7 +504,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.964Z"
+      "timestamp": "2026-07-30T11:51:41.886Z"
     },
     {
       "id": "TC_PATIENT_006",
@@ -515,7 +515,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.965Z"
+      "timestamp": "2026-07-30T11:51:41.886Z"
     },
     {
       "id": "TC_PATIENT_007",
@@ -526,7 +526,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.965Z"
+      "timestamp": "2026-07-30T11:51:41.887Z"
     },
     {
       "id": "TC_PATIENT_008",
@@ -534,10 +534,10 @@
       "name": "TC_PATIENT_008 — Patient management scenario 8",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.966Z"
+      "timestamp": "2026-07-30T11:51:41.887Z"
     },
     {
       "id": "TC_PATIENT_009",
@@ -548,7 +548,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.966Z"
+      "timestamp": "2026-07-30T11:51:41.887Z"
     },
     {
       "id": "TC_PATIENT_010",
@@ -556,10 +556,10 @@
       "name": "TC_PATIENT_010 — Patient management scenario 10",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.967Z"
+      "timestamp": "2026-07-30T11:51:41.888Z"
     },
     {
       "id": "TC_PATIENT_011",
@@ -570,7 +570,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.967Z"
+      "timestamp": "2026-07-30T11:51:41.888Z"
     },
     {
       "id": "TC_PATIENT_012",
@@ -581,7 +581,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.968Z"
+      "timestamp": "2026-07-30T11:51:41.889Z"
     },
     {
       "id": "TC_PATIENT_013",
@@ -592,7 +592,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.968Z"
+      "timestamp": "2026-07-30T11:51:41.889Z"
     },
     {
       "id": "TC_PATIENT_014",
@@ -600,10 +600,10 @@
       "name": "TC_PATIENT_014 — Patient management scenario 14",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.969Z"
+      "timestamp": "2026-07-30T11:51:41.890Z"
     },
     {
       "id": "TC_PATIENT_015",
@@ -611,10 +611,10 @@
       "name": "TC_PATIENT_015 — Patient management scenario 15",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.970Z"
+      "timestamp": "2026-07-30T11:51:41.890Z"
     },
     {
       "id": "TC_PATIENT_016",
@@ -622,10 +622,10 @@
       "name": "TC_PATIENT_016 — Patient management scenario 16",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.970Z"
+      "timestamp": "2026-07-30T11:51:41.891Z"
     },
     {
       "id": "TC_PATIENT_017",
@@ -636,7 +636,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.971Z"
+      "timestamp": "2026-07-30T11:51:41.891Z"
     },
     {
       "id": "TC_PATIENT_018",
@@ -647,7 +647,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.971Z"
+      "timestamp": "2026-07-30T11:51:41.892Z"
     },
     {
       "id": "TC_PATIENT_019",
@@ -658,7 +658,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.972Z"
+      "timestamp": "2026-07-30T11:51:41.892Z"
     },
     {
       "id": "TC_PATIENT_020",
@@ -669,7 +669,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.973Z"
+      "timestamp": "2026-07-30T11:51:41.893Z"
     },
     {
       "id": "TC_PATIENT_021",
@@ -680,7 +680,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.973Z"
+      "timestamp": "2026-07-30T11:51:41.895Z"
     },
     {
       "id": "TC_PATIENT_022",
@@ -691,7 +691,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.974Z"
+      "timestamp": "2026-07-30T11:51:41.896Z"
     },
     {
       "id": "TC_PATIENT_023",
@@ -702,7 +702,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.974Z"
+      "timestamp": "2026-07-30T11:51:41.896Z"
     },
     {
       "id": "TC_PATIENT_024",
@@ -713,7 +713,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.975Z"
+      "timestamp": "2026-07-30T11:51:41.896Z"
     },
     {
       "id": "TC_PATIENT_025",
@@ -724,7 +724,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.976Z"
+      "timestamp": "2026-07-30T11:51:41.897Z"
     },
     {
       "id": "TC_PATIENT_026",
@@ -732,10 +732,10 @@
       "name": "TC_PATIENT_026 — Patient management scenario 26",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.977Z"
+      "timestamp": "2026-07-30T11:51:41.897Z"
     },
     {
       "id": "TC_PATIENT_027",
@@ -746,7 +746,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.977Z"
+      "timestamp": "2026-07-30T11:51:41.898Z"
     },
     {
       "id": "TC_PATIENT_028",
@@ -754,10 +754,10 @@
       "name": "TC_PATIENT_028 — Patient management scenario 28",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.978Z"
+      "timestamp": "2026-07-30T11:51:41.898Z"
     },
     {
       "id": "TC_PATIENT_029",
@@ -768,7 +768,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.978Z"
+      "timestamp": "2026-07-30T11:51:41.899Z"
     },
     {
       "id": "TC_PATIENT_030",
@@ -776,10 +776,10 @@
       "name": "TC_PATIENT_030 — Patient management scenario 30",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.979Z"
+      "timestamp": "2026-07-30T11:51:41.899Z"
     },
     {
       "id": "TC_PATIENT_031",
@@ -790,7 +790,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.979Z"
+      "timestamp": "2026-07-30T11:51:41.900Z"
     },
     {
       "id": "TC_PATIENT_032",
@@ -798,10 +798,10 @@
       "name": "TC_PATIENT_032 — Patient management scenario 32",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.980Z"
+      "timestamp": "2026-07-30T11:51:41.900Z"
     },
     {
       "id": "TC_PATIENT_033",
@@ -812,7 +812,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.980Z"
+      "timestamp": "2026-07-30T11:51:41.901Z"
     },
     {
       "id": "TC_PATIENT_034",
@@ -823,7 +823,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.980Z"
+      "timestamp": "2026-07-30T11:51:41.901Z"
     },
     {
       "id": "TC_PATIENT_035",
@@ -834,7 +834,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.981Z"
+      "timestamp": "2026-07-30T11:51:41.902Z"
     },
     {
       "id": "TC_PATIENT_036",
@@ -845,7 +845,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.981Z"
+      "timestamp": "2026-07-30T11:51:41.903Z"
     },
     {
       "id": "TC_PATIENT_037",
@@ -856,7 +856,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.982Z"
+      "timestamp": "2026-07-30T11:51:41.904Z"
     },
     {
       "id": "TC_PATIENT_038",
@@ -867,7 +867,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.982Z"
+      "timestamp": "2026-07-30T11:51:41.904Z"
     },
     {
       "id": "TC_PATIENT_039",
@@ -875,10 +875,10 @@
       "name": "TC_PATIENT_039 — Patient management scenario 39",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.983Z"
+      "timestamp": "2026-07-30T11:51:41.905Z"
     },
     {
       "id": "TC_PATIENT_040",
@@ -889,7 +889,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.983Z"
+      "timestamp": "2026-07-30T11:51:41.908Z"
     },
     {
       "id": "TC_PATIENT_041",
@@ -900,7 +900,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.984Z"
+      "timestamp": "2026-07-30T11:51:41.908Z"
     },
     {
       "id": "TC_PATIENT_042",
@@ -911,7 +911,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.984Z"
+      "timestamp": "2026-07-30T11:51:41.908Z"
     },
     {
       "id": "TC_PATIENT_043",
@@ -922,7 +922,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.985Z"
+      "timestamp": "2026-07-30T11:51:41.909Z"
     },
     {
       "id": "TC_PATIENT_044",
@@ -933,7 +933,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.985Z"
+      "timestamp": "2026-07-30T11:51:41.909Z"
     },
     {
       "id": "TC_PATIENT_045",
@@ -941,10 +941,10 @@
       "name": "TC_PATIENT_045 — Patient management scenario 45",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.986Z"
+      "timestamp": "2026-07-30T11:51:41.910Z"
     },
     {
       "id": "TC_PATIENT_046",
@@ -955,7 +955,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.986Z"
+      "timestamp": "2026-07-30T11:51:41.910Z"
     },
     {
       "id": "TC_PATIENT_047",
@@ -966,7 +966,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.987Z"
+      "timestamp": "2026-07-30T11:51:41.911Z"
     },
     {
       "id": "TC_PATIENT_048",
@@ -977,7 +977,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.987Z"
+      "timestamp": "2026-07-30T11:51:41.911Z"
     },
     {
       "id": "TC_PATIENT_049",
@@ -988,7 +988,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.988Z"
+      "timestamp": "2026-07-30T11:51:41.912Z"
     },
     {
       "id": "TC_PATIENT_050",
@@ -999,7 +999,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.988Z"
+      "timestamp": "2026-07-30T11:51:41.912Z"
     },
     {
       "id": "TC_PATIENT_051",
@@ -1007,10 +1007,10 @@
       "name": "TC_PATIENT_051 — Patient management scenario 51",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.988Z"
+      "timestamp": "2026-07-30T11:51:41.913Z"
     },
     {
       "id": "TC_PATIENT_052",
@@ -1021,7 +1021,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.989Z"
+      "timestamp": "2026-07-30T11:51:41.913Z"
     },
     {
       "id": "TC_PATIENT_053",
@@ -1029,10 +1029,10 @@
       "name": "TC_PATIENT_053 — Patient management scenario 53",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.989Z"
+      "timestamp": "2026-07-30T11:51:41.914Z"
     },
     {
       "id": "TC_PATIENT_054",
@@ -1043,7 +1043,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.990Z"
+      "timestamp": "2026-07-30T11:51:41.914Z"
     },
     {
       "id": "TC_PATIENT_055",
@@ -1054,7 +1054,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.990Z"
+      "timestamp": "2026-07-30T11:51:41.915Z"
     },
     {
       "id": "TC_PATIENT_056",
@@ -1065,7 +1065,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.991Z"
+      "timestamp": "2026-07-30T11:51:41.915Z"
     },
     {
       "id": "TC_PATIENT_057",
@@ -1076,7 +1076,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.991Z"
+      "timestamp": "2026-07-30T11:51:41.916Z"
     },
     {
       "id": "TC_PATIENT_058",
@@ -1087,7 +1087,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.992Z"
+      "timestamp": "2026-07-30T11:51:41.916Z"
     },
     {
       "id": "TC_PATIENT_059",
@@ -1098,7 +1098,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.992Z"
+      "timestamp": "2026-07-30T11:51:41.916Z"
     },
     {
       "id": "TC_PATIENT_060",
@@ -1109,7 +1109,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:20.993Z"
+      "timestamp": "2026-07-30T11:51:41.917Z"
     },
     {
       "id": "TC_DASH_001",
@@ -1120,7 +1120,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.147Z"
+      "timestamp": "2026-07-30T11:51:42.071Z"
     },
     {
       "id": "TC_DASH_002",
@@ -1131,7 +1131,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.148Z"
+      "timestamp": "2026-07-30T11:51:42.071Z"
     },
     {
       "id": "TC_DASH_003",
@@ -1142,7 +1142,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.148Z"
+      "timestamp": "2026-07-30T11:51:42.072Z"
     },
     {
       "id": "TC_DASH_004",
@@ -1153,7 +1153,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.149Z"
+      "timestamp": "2026-07-30T11:51:42.072Z"
     },
     {
       "id": "TC_DASH_005",
@@ -1164,7 +1164,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.149Z"
+      "timestamp": "2026-07-30T11:51:42.073Z"
     },
     {
       "id": "TC_DASH_006",
@@ -1175,7 +1175,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.150Z"
+      "timestamp": "2026-07-30T11:51:42.073Z"
     },
     {
       "id": "TC_DASH_007",
@@ -1186,7 +1186,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.150Z"
+      "timestamp": "2026-07-30T11:51:42.074Z"
     },
     {
       "id": "TC_DASH_008",
@@ -1197,7 +1197,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.151Z"
+      "timestamp": "2026-07-30T11:51:42.074Z"
     },
     {
       "id": "TC_DASH_009",
@@ -1208,7 +1208,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.152Z"
+      "timestamp": "2026-07-30T11:51:42.075Z"
     },
     {
       "id": "TC_DASH_010",
@@ -1219,7 +1219,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.152Z"
+      "timestamp": "2026-07-30T11:51:42.075Z"
     },
     {
       "id": "TC_DASH_011",
@@ -1230,7 +1230,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.153Z"
+      "timestamp": "2026-07-30T11:51:42.076Z"
     },
     {
       "id": "TC_DASH_012",
@@ -1241,7 +1241,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.153Z"
+      "timestamp": "2026-07-30T11:51:42.076Z"
     },
     {
       "id": "TC_DASH_013",
@@ -1249,10 +1249,10 @@
       "name": "TC_DASH_013 — Dashboard scenario 13",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.154Z"
+      "timestamp": "2026-07-30T11:51:42.076Z"
     },
     {
       "id": "TC_DASH_014",
@@ -1263,7 +1263,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.154Z"
+      "timestamp": "2026-07-30T11:51:42.077Z"
     },
     {
       "id": "TC_DASH_015",
@@ -1274,7 +1274,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.155Z"
+      "timestamp": "2026-07-30T11:51:42.078Z"
     },
     {
       "id": "TC_DASH_016",
@@ -1285,7 +1285,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.155Z"
+      "timestamp": "2026-07-30T11:51:42.078Z"
     },
     {
       "id": "TC_DASH_017",
@@ -1296,7 +1296,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.156Z"
+      "timestamp": "2026-07-30T11:51:42.079Z"
     },
     {
       "id": "TC_DASH_018",
@@ -1307,7 +1307,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.156Z"
+      "timestamp": "2026-07-30T11:51:42.079Z"
     },
     {
       "id": "TC_DASH_019",
@@ -1318,7 +1318,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.157Z"
+      "timestamp": "2026-07-30T11:51:42.080Z"
     },
     {
       "id": "TC_DASH_020",
@@ -1329,7 +1329,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.157Z"
+      "timestamp": "2026-07-30T11:51:42.080Z"
     },
     {
       "id": "TC_DASH_021",
@@ -1340,7 +1340,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.158Z"
+      "timestamp": "2026-07-30T11:51:42.080Z"
     },
     {
       "id": "TC_DASH_022",
@@ -1351,7 +1351,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.159Z"
+      "timestamp": "2026-07-30T11:51:42.081Z"
     },
     {
       "id": "TC_DASH_023",
@@ -1362,7 +1362,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.159Z"
+      "timestamp": "2026-07-30T11:51:42.081Z"
     },
     {
       "id": "TC_DASH_024",
@@ -1370,10 +1370,10 @@
       "name": "TC_DASH_024 — Dashboard scenario 24",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.160Z"
+      "timestamp": "2026-07-30T11:51:42.082Z"
     },
     {
       "id": "TC_DASH_025",
@@ -1384,7 +1384,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.160Z"
+      "timestamp": "2026-07-30T11:51:42.082Z"
     },
     {
       "id": "TC_DASH_026",
@@ -1395,7 +1395,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.161Z"
+      "timestamp": "2026-07-30T11:51:42.083Z"
     },
     {
       "id": "TC_DASH_027",
@@ -1403,10 +1403,10 @@
       "name": "TC_DASH_027 — Dashboard scenario 27",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.161Z"
+      "timestamp": "2026-07-30T11:51:42.084Z"
     },
     {
       "id": "TC_DASH_028",
@@ -1417,7 +1417,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.163Z"
+      "timestamp": "2026-07-30T11:51:42.084Z"
     },
     {
       "id": "TC_DASH_029",
@@ -1425,10 +1425,10 @@
       "name": "TC_DASH_029 — Dashboard scenario 29",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.164Z"
+      "timestamp": "2026-07-30T11:51:42.085Z"
     },
     {
       "id": "TC_DASH_030",
@@ -1439,7 +1439,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.164Z"
+      "timestamp": "2026-07-30T11:51:42.085Z"
     },
     {
       "id": "TC_NAV_001",
@@ -1450,7 +1450,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.165Z"
+      "timestamp": "2026-07-30T11:51:42.086Z"
     },
     {
       "id": "TC_NAV_002",
@@ -1461,7 +1461,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.165Z"
+      "timestamp": "2026-07-30T11:51:42.086Z"
     },
     {
       "id": "TC_NAV_003",
@@ -1472,7 +1472,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.165Z"
+      "timestamp": "2026-07-30T11:51:42.087Z"
     },
     {
       "id": "TC_NAV_004",
@@ -1480,10 +1480,10 @@
       "name": "TC_NAV_004 — Navigation scenario 34",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.166Z"
+      "timestamp": "2026-07-30T11:51:42.088Z"
     },
     {
       "id": "TC_NAV_005",
@@ -1494,7 +1494,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.166Z"
+      "timestamp": "2026-07-30T11:51:42.088Z"
     },
     {
       "id": "TC_NAV_006",
@@ -1505,7 +1505,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.167Z"
+      "timestamp": "2026-07-30T11:51:42.089Z"
     },
     {
       "id": "TC_NAV_007",
@@ -1516,7 +1516,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.167Z"
+      "timestamp": "2026-07-30T11:51:42.089Z"
     },
     {
       "id": "TC_NAV_008",
@@ -1527,7 +1527,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.168Z"
+      "timestamp": "2026-07-30T11:51:42.090Z"
     },
     {
       "id": "TC_NAV_009",
@@ -1538,7 +1538,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.168Z"
+      "timestamp": "2026-07-30T11:51:42.091Z"
     },
     {
       "id": "TC_NAV_010",
@@ -1546,10 +1546,10 @@
       "name": "TC_NAV_010 — Navigation scenario 40",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.169Z"
+      "timestamp": "2026-07-30T11:51:42.091Z"
     },
     {
       "id": "TC_NAV_011",
@@ -1560,7 +1560,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.169Z"
+      "timestamp": "2026-07-30T11:51:42.092Z"
     },
     {
       "id": "TC_NAV_012",
@@ -1571,7 +1571,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.170Z"
+      "timestamp": "2026-07-30T11:51:42.092Z"
     },
     {
       "id": "TC_NAV_013",
@@ -1582,7 +1582,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.170Z"
+      "timestamp": "2026-07-30T11:51:42.093Z"
     },
     {
       "id": "TC_NAV_014",
@@ -1590,10 +1590,10 @@
       "name": "TC_NAV_014 — Navigation scenario 44",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.171Z"
+      "timestamp": "2026-07-30T11:51:42.094Z"
     },
     {
       "id": "TC_NAV_015",
@@ -1604,7 +1604,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.171Z"
+      "timestamp": "2026-07-30T11:51:42.094Z"
     },
     {
       "id": "TC_NAV_016",
@@ -1615,7 +1615,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.172Z"
+      "timestamp": "2026-07-30T11:51:42.095Z"
     },
     {
       "id": "TC_NAV_017",
@@ -1626,7 +1626,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.172Z"
+      "timestamp": "2026-07-30T11:51:42.095Z"
     },
     {
       "id": "TC_NAV_018",
@@ -1634,10 +1634,10 @@
       "name": "TC_NAV_018 — Navigation scenario 48",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.173Z"
+      "timestamp": "2026-07-30T11:51:42.096Z"
     },
     {
       "id": "TC_NAV_019",
@@ -1648,7 +1648,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.173Z"
+      "timestamp": "2026-07-30T11:51:42.097Z"
     },
     {
       "id": "TC_NAV_020",
@@ -1659,7 +1659,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.174Z"
+      "timestamp": "2026-07-30T11:51:42.097Z"
     },
     {
       "id": "TC_SURVEY_001",
@@ -1670,7 +1670,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.325Z"
+      "timestamp": "2026-07-30T11:51:42.250Z"
     },
     {
       "id": "TC_SURVEY_002",
@@ -1681,7 +1681,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.326Z"
+      "timestamp": "2026-07-30T11:51:42.251Z"
     },
     {
       "id": "TC_SURVEY_003",
@@ -1692,7 +1692,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.326Z"
+      "timestamp": "2026-07-30T11:51:42.252Z"
     },
     {
       "id": "TC_SURVEY_004",
@@ -1703,7 +1703,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.327Z"
+      "timestamp": "2026-07-30T11:51:42.253Z"
     },
     {
       "id": "TC_SURVEY_005",
@@ -1711,10 +1711,10 @@
       "name": "TC_SURVEY_005 — Survey scenario 5",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.328Z"
+      "timestamp": "2026-07-30T11:51:42.253Z"
     },
     {
       "id": "TC_SURVEY_006",
@@ -1725,7 +1725,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.328Z"
+      "timestamp": "2026-07-30T11:51:42.254Z"
     },
     {
       "id": "TC_SURVEY_007",
@@ -1733,10 +1733,10 @@
       "name": "TC_SURVEY_007 — Survey scenario 7",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.329Z"
+      "timestamp": "2026-07-30T11:51:42.254Z"
     },
     {
       "id": "TC_SURVEY_008",
@@ -1747,7 +1747,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.329Z"
+      "timestamp": "2026-07-30T11:51:42.255Z"
     },
     {
       "id": "TC_SURVEY_009",
@@ -1758,7 +1758,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.330Z"
+      "timestamp": "2026-07-30T11:51:42.255Z"
     },
     {
       "id": "TC_SURVEY_010",
@@ -1769,7 +1769,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.330Z"
+      "timestamp": "2026-07-30T11:51:42.256Z"
     },
     {
       "id": "TC_SURVEY_011",
@@ -1780,7 +1780,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.331Z"
+      "timestamp": "2026-07-30T11:51:42.256Z"
     },
     {
       "id": "TC_SURVEY_012",
@@ -1788,10 +1788,10 @@
       "name": "TC_SURVEY_012 — Survey scenario 12",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.332Z"
+      "timestamp": "2026-07-30T11:51:42.257Z"
     },
     {
       "id": "TC_SURVEY_013",
@@ -1802,7 +1802,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.332Z"
+      "timestamp": "2026-07-30T11:51:42.258Z"
     },
     {
       "id": "TC_SURVEY_014",
@@ -1813,7 +1813,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.333Z"
+      "timestamp": "2026-07-30T11:51:42.258Z"
     },
     {
       "id": "TC_SURVEY_015",
@@ -1824,7 +1824,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.334Z"
+      "timestamp": "2026-07-30T11:51:42.259Z"
     },
     {
       "id": "TC_SURVEY_016",
@@ -1835,7 +1835,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.334Z"
+      "timestamp": "2026-07-30T11:51:42.259Z"
     },
     {
       "id": "TC_SURVEY_017",
@@ -1846,7 +1846,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.335Z"
+      "timestamp": "2026-07-30T11:51:42.260Z"
     },
     {
       "id": "TC_SURVEY_018",
@@ -1857,7 +1857,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.336Z"
+      "timestamp": "2026-07-30T11:51:42.261Z"
     },
     {
       "id": "TC_SURVEY_019",
@@ -1868,7 +1868,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.336Z"
+      "timestamp": "2026-07-30T11:51:42.261Z"
     },
     {
       "id": "TC_SURVEY_020",
@@ -1879,7 +1879,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.337Z"
+      "timestamp": "2026-07-30T11:51:42.262Z"
     },
     {
       "id": "TC_SURVEY_021",
@@ -1890,7 +1890,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.338Z"
+      "timestamp": "2026-07-30T11:51:42.262Z"
     },
     {
       "id": "TC_SURVEY_022",
@@ -1901,7 +1901,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.338Z"
+      "timestamp": "2026-07-30T11:51:42.263Z"
     },
     {
       "id": "TC_SURVEY_023",
@@ -1912,7 +1912,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.339Z"
+      "timestamp": "2026-07-30T11:51:42.263Z"
     },
     {
       "id": "TC_SURVEY_024",
@@ -1923,7 +1923,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.339Z"
+      "timestamp": "2026-07-30T11:51:42.264Z"
     },
     {
       "id": "TC_SURVEY_025",
@@ -1934,7 +1934,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.340Z"
+      "timestamp": "2026-07-30T11:51:42.264Z"
     },
     {
       "id": "TC_SURVEY_026",
@@ -1945,7 +1945,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.341Z"
+      "timestamp": "2026-07-30T11:51:42.265Z"
     },
     {
       "id": "TC_SURVEY_027",
@@ -1956,7 +1956,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.341Z"
+      "timestamp": "2026-07-30T11:51:42.265Z"
     },
     {
       "id": "TC_SURVEY_028",
@@ -1967,7 +1967,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.342Z"
+      "timestamp": "2026-07-30T11:51:42.266Z"
     },
     {
       "id": "TC_SURVEY_029",
@@ -1978,7 +1978,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.343Z"
+      "timestamp": "2026-07-30T11:51:42.266Z"
     },
     {
       "id": "TC_SURVEY_030",
@@ -1989,7 +1989,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.343Z"
+      "timestamp": "2026-07-30T11:51:42.267Z"
     },
     {
       "id": "TC_SURVEY_031",
@@ -2000,7 +2000,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.344Z"
+      "timestamp": "2026-07-30T11:51:42.268Z"
     },
     {
       "id": "TC_SURVEY_032",
@@ -2011,7 +2011,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.345Z"
+      "timestamp": "2026-07-30T11:51:42.268Z"
     },
     {
       "id": "TC_SURVEY_033",
@@ -2022,7 +2022,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.345Z"
+      "timestamp": "2026-07-30T11:51:42.269Z"
     },
     {
       "id": "TC_SURVEY_034",
@@ -2030,10 +2030,10 @@
       "name": "TC_SURVEY_034 — Survey scenario 34",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.346Z"
+      "timestamp": "2026-07-30T11:51:42.270Z"
     },
     {
       "id": "TC_SURVEY_035",
@@ -2041,10 +2041,10 @@
       "name": "TC_SURVEY_035 — Survey scenario 35",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.347Z"
+      "timestamp": "2026-07-30T11:51:42.270Z"
     },
     {
       "id": "TC_SURVEY_036",
@@ -2055,7 +2055,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.348Z"
+      "timestamp": "2026-07-30T11:51:42.271Z"
     },
     {
       "id": "TC_SURVEY_037",
@@ -2066,7 +2066,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.349Z"
+      "timestamp": "2026-07-30T11:51:42.271Z"
     },
     {
       "id": "TC_SURVEY_038",
@@ -2077,7 +2077,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.349Z"
+      "timestamp": "2026-07-30T11:51:42.272Z"
     },
     {
       "id": "TC_SURVEY_039",
@@ -2085,10 +2085,10 @@
       "name": "TC_SURVEY_039 — Survey scenario 39",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.350Z"
+      "timestamp": "2026-07-30T11:51:42.273Z"
     },
     {
       "id": "TC_SURVEY_040",
@@ -2099,7 +2099,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.350Z"
+      "timestamp": "2026-07-30T11:51:42.273Z"
     },
     {
       "id": "TC_SURVEY_041",
@@ -2107,10 +2107,10 @@
       "name": "TC_SURVEY_041 — Survey scenario 41",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.351Z"
+      "timestamp": "2026-07-30T11:51:42.274Z"
     },
     {
       "id": "TC_SURVEY_042",
@@ -2118,10 +2118,10 @@
       "name": "TC_SURVEY_042 — Survey scenario 42",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.351Z"
+      "timestamp": "2026-07-30T11:51:42.275Z"
     },
     {
       "id": "TC_SURVEY_043",
@@ -2132,7 +2132,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.352Z"
+      "timestamp": "2026-07-30T11:51:42.275Z"
     },
     {
       "id": "TC_SURVEY_044",
@@ -2143,7 +2143,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.352Z"
+      "timestamp": "2026-07-30T11:51:42.276Z"
     },
     {
       "id": "TC_SURVEY_045",
@@ -2154,7 +2154,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.353Z"
+      "timestamp": "2026-07-30T11:51:42.276Z"
     },
     {
       "id": "TC_SURVEY_046",
@@ -2165,7 +2165,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.354Z"
+      "timestamp": "2026-07-30T11:51:42.277Z"
     },
     {
       "id": "TC_SURVEY_047",
@@ -2176,7 +2176,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.354Z"
+      "timestamp": "2026-07-30T11:51:42.278Z"
     },
     {
       "id": "TC_SURVEY_048",
@@ -2187,7 +2187,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.355Z"
+      "timestamp": "2026-07-30T11:51:42.279Z"
     },
     {
       "id": "TC_SURVEY_049",
@@ -2198,7 +2198,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.356Z"
+      "timestamp": "2026-07-30T11:51:42.280Z"
     },
     {
       "id": "TC_SURVEY_050",
@@ -2209,7 +2209,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.356Z"
+      "timestamp": "2026-07-30T11:51:42.280Z"
     },
     {
       "id": "TC_PROFILE_001",
@@ -2220,7 +2220,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.511Z"
+      "timestamp": "2026-07-30T11:51:42.435Z"
     },
     {
       "id": "TC_PROFILE_002",
@@ -2231,7 +2231,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.512Z"
+      "timestamp": "2026-07-30T11:51:42.436Z"
     },
     {
       "id": "TC_PROFILE_003",
@@ -2242,7 +2242,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.513Z"
+      "timestamp": "2026-07-30T11:51:42.437Z"
     },
     {
       "id": "TC_PROFILE_004",
@@ -2253,7 +2253,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.513Z"
+      "timestamp": "2026-07-30T11:51:42.438Z"
     },
     {
       "id": "TC_PROFILE_005",
@@ -2264,7 +2264,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.514Z"
+      "timestamp": "2026-07-30T11:51:42.439Z"
     },
     {
       "id": "TC_PROFILE_006",
@@ -2272,10 +2272,10 @@
       "name": "TC_PROFILE_006 — Profile scenario 6",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.515Z"
+      "timestamp": "2026-07-30T11:51:42.440Z"
     },
     {
       "id": "TC_PROFILE_007",
@@ -2286,7 +2286,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.515Z"
+      "timestamp": "2026-07-30T11:51:42.441Z"
     },
     {
       "id": "TC_PROFILE_008",
@@ -2297,7 +2297,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.516Z"
+      "timestamp": "2026-07-30T11:51:42.442Z"
     },
     {
       "id": "TC_PROFILE_009",
@@ -2308,7 +2308,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.517Z"
+      "timestamp": "2026-07-30T11:51:42.442Z"
     },
     {
       "id": "TC_PROFILE_010",
@@ -2319,7 +2319,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.517Z"
+      "timestamp": "2026-07-30T11:51:42.443Z"
     },
     {
       "id": "TC_PROFILE_011",
@@ -2330,7 +2330,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.518Z"
+      "timestamp": "2026-07-30T11:51:42.443Z"
     },
     {
       "id": "TC_PROFILE_012",
@@ -2341,7 +2341,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.518Z"
+      "timestamp": "2026-07-30T11:51:42.444Z"
     },
     {
       "id": "TC_PROFILE_013",
@@ -2352,7 +2352,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.519Z"
+      "timestamp": "2026-07-30T11:51:42.444Z"
     },
     {
       "id": "TC_PROFILE_014",
@@ -2363,7 +2363,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.520Z"
+      "timestamp": "2026-07-30T11:51:42.445Z"
     },
     {
       "id": "TC_PROFILE_015",
@@ -2371,10 +2371,10 @@
       "name": "TC_PROFILE_015 — Profile scenario 15",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.520Z"
+      "timestamp": "2026-07-30T11:51:42.446Z"
     },
     {
       "id": "TC_PROFILE_016",
@@ -2385,7 +2385,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.521Z"
+      "timestamp": "2026-07-30T11:51:42.446Z"
     },
     {
       "id": "TC_PROFILE_017",
@@ -2396,7 +2396,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.522Z"
+      "timestamp": "2026-07-30T11:51:42.447Z"
     },
     {
       "id": "TC_PROFILE_018",
@@ -2407,7 +2407,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.522Z"
+      "timestamp": "2026-07-30T11:51:42.447Z"
     },
     {
       "id": "TC_PROFILE_019",
@@ -2418,7 +2418,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.523Z"
+      "timestamp": "2026-07-30T11:51:42.448Z"
     },
     {
       "id": "TC_PROFILE_020",
@@ -2429,7 +2429,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.524Z"
+      "timestamp": "2026-07-30T11:51:42.449Z"
     },
     {
       "id": "TC_PROFILE_021",
@@ -2440,7 +2440,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.524Z"
+      "timestamp": "2026-07-30T11:51:42.450Z"
     },
     {
       "id": "TC_PROFILE_022",
@@ -2451,7 +2451,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.525Z"
+      "timestamp": "2026-07-30T11:51:42.452Z"
     },
     {
       "id": "TC_PROFILE_023",
@@ -2459,10 +2459,10 @@
       "name": "TC_PROFILE_023 — Profile scenario 23",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.526Z"
+      "timestamp": "2026-07-30T11:51:42.452Z"
     },
     {
       "id": "TC_PROFILE_024",
@@ -2473,7 +2473,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.526Z"
+      "timestamp": "2026-07-30T11:51:42.453Z"
     },
     {
       "id": "TC_PROFILE_025",
@@ -2481,10 +2481,10 @@
       "name": "TC_PROFILE_025 — Profile scenario 25",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.527Z"
+      "timestamp": "2026-07-30T11:51:42.454Z"
     },
     {
       "id": "TC_PROFILE_026",
@@ -2492,10 +2492,10 @@
       "name": "TC_PROFILE_026 — Profile scenario 26",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.528Z"
+      "timestamp": "2026-07-30T11:51:42.454Z"
     },
     {
       "id": "TC_PROFILE_027",
@@ -2506,7 +2506,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.528Z"
+      "timestamp": "2026-07-30T11:51:42.455Z"
     },
     {
       "id": "TC_PROFILE_028",
@@ -2517,7 +2517,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.529Z"
+      "timestamp": "2026-07-30T11:51:42.455Z"
     },
     {
       "id": "TC_PROFILE_029",
@@ -2528,7 +2528,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.530Z"
+      "timestamp": "2026-07-30T11:51:42.456Z"
     },
     {
       "id": "TC_PROFILE_030",
@@ -2539,7 +2539,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.530Z"
+      "timestamp": "2026-07-30T11:51:42.457Z"
     },
     {
       "id": "TC_PROFILE_031",
@@ -2550,7 +2550,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.531Z"
+      "timestamp": "2026-07-30T11:51:42.457Z"
     },
     {
       "id": "TC_PROFILE_032",
@@ -2561,7 +2561,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.532Z"
+      "timestamp": "2026-07-30T11:51:42.458Z"
     },
     {
       "id": "TC_PROFILE_033",
@@ -2572,7 +2572,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.532Z"
+      "timestamp": "2026-07-30T11:51:42.459Z"
     },
     {
       "id": "TC_PROFILE_034",
@@ -2583,7 +2583,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.533Z"
+      "timestamp": "2026-07-30T11:51:42.459Z"
     },
     {
       "id": "TC_PROFILE_035",
@@ -2594,7 +2594,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.534Z"
+      "timestamp": "2026-07-30T11:51:42.460Z"
     },
     {
       "id": "TC_PROFILE_036",
@@ -2605,7 +2605,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.535Z"
+      "timestamp": "2026-07-30T11:51:42.461Z"
     },
     {
       "id": "TC_PROFILE_037",
@@ -2616,7 +2616,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.536Z"
+      "timestamp": "2026-07-30T11:51:42.461Z"
     },
     {
       "id": "TC_PROFILE_038",
@@ -2627,7 +2627,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.536Z"
+      "timestamp": "2026-07-30T11:51:42.462Z"
     },
     {
       "id": "TC_PROFILE_039",
@@ -2638,7 +2638,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.537Z"
+      "timestamp": "2026-07-30T11:51:42.463Z"
     },
     {
       "id": "TC_PROFILE_040",
@@ -2649,7 +2649,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.538Z"
+      "timestamp": "2026-07-30T11:51:42.464Z"
     },
     {
       "id": "TC_SETTINGS_001",
@@ -2660,7 +2660,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.538Z"
+      "timestamp": "2026-07-30T11:51:42.464Z"
     },
     {
       "id": "TC_SETTINGS_002",
@@ -2671,7 +2671,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.539Z"
+      "timestamp": "2026-07-30T11:51:42.465Z"
     },
     {
       "id": "TC_SETTINGS_003",
@@ -2682,7 +2682,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.540Z"
+      "timestamp": "2026-07-30T11:51:42.466Z"
     },
     {
       "id": "TC_SETTINGS_004",
@@ -2693,7 +2693,7 @@
       "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.541Z"
+      "timestamp": "2026-07-30T11:51:42.467Z"
     },
     {
       "id": "TC_SETTINGS_005",
@@ -2704,7 +2704,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.541Z"
+      "timestamp": "2026-07-30T11:51:42.467Z"
     },
     {
       "id": "TC_SETTINGS_006",
@@ -2715,7 +2715,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.542Z"
+      "timestamp": "2026-07-30T11:51:42.468Z"
     },
     {
       "id": "TC_SETTINGS_007",
@@ -2726,7 +2726,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.543Z"
+      "timestamp": "2026-07-30T11:51:42.469Z"
     },
     {
       "id": "TC_SETTINGS_008",
@@ -2734,10 +2734,10 @@
       "name": "TC_SETTINGS_008 — Settings scenario 48",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.543Z"
+      "timestamp": "2026-07-30T11:51:42.470Z"
     },
     {
       "id": "TC_SETTINGS_009",
@@ -2748,7 +2748,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.544Z"
+      "timestamp": "2026-07-30T11:51:42.470Z"
     },
     {
       "id": "TC_SETTINGS_010",
@@ -2759,7 +2759,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.545Z"
+      "timestamp": "2026-07-30T11:51:42.471Z"
     },
     {
       "id": "TC_CHAT_001",
@@ -2767,10 +2767,10 @@
       "name": "TC_CHAT_001 — Chat scenario 51",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.546Z"
+      "timestamp": "2026-07-30T11:51:42.472Z"
     },
     {
       "id": "TC_CHAT_002",
@@ -2781,7 +2781,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.546Z"
+      "timestamp": "2026-07-30T11:51:42.473Z"
     },
     {
       "id": "TC_CHAT_003",
@@ -2792,7 +2792,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.547Z"
+      "timestamp": "2026-07-30T11:51:42.474Z"
     },
     {
       "id": "TC_CHAT_004",
@@ -2803,7 +2803,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.548Z"
+      "timestamp": "2026-07-30T11:51:42.475Z"
     },
     {
       "id": "TC_CHAT_005",
@@ -2814,7 +2814,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.548Z"
+      "timestamp": "2026-07-30T11:51:42.476Z"
     },
     {
       "id": "TC_CHAT_006",
@@ -2825,7 +2825,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.549Z"
+      "timestamp": "2026-07-30T11:51:42.477Z"
     },
     {
       "id": "TC_CHAT_007",
@@ -2836,7 +2836,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.550Z"
+      "timestamp": "2026-07-30T11:51:42.478Z"
     },
     {
       "id": "TC_CHAT_008",
@@ -2847,7 +2847,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.551Z"
+      "timestamp": "2026-07-30T11:51:42.479Z"
     },
     {
       "id": "TC_CHAT_009",
@@ -2858,7 +2858,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.551Z"
+      "timestamp": "2026-07-30T11:51:42.479Z"
     },
     {
       "id": "TC_CHAT_010",
@@ -2869,7 +2869,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.552Z"
+      "timestamp": "2026-07-30T11:51:42.480Z"
     },
     {
       "id": "TC_REG_001",
@@ -2880,7 +2880,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.707Z"
+      "timestamp": "2026-07-30T11:51:42.639Z"
     },
     {
       "id": "TC_REG_002",
@@ -2891,7 +2891,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.708Z"
+      "timestamp": "2026-07-30T11:51:42.640Z"
     },
     {
       "id": "TC_REG_003",
@@ -2902,7 +2902,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.708Z"
+      "timestamp": "2026-07-30T11:51:42.641Z"
     },
     {
       "id": "TC_REG_004",
@@ -2913,7 +2913,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.709Z"
+      "timestamp": "2026-07-30T11:51:42.642Z"
     },
     {
       "id": "TC_REG_005",
@@ -2924,7 +2924,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.710Z"
+      "timestamp": "2026-07-30T11:51:42.643Z"
     },
     {
       "id": "TC_REG_006",
@@ -2932,10 +2932,10 @@
       "name": "TC_REG_006 — Regression & Performance scenario 6",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.711Z"
+      "timestamp": "2026-07-30T11:51:42.644Z"
     },
     {
       "id": "TC_REG_007",
@@ -2946,7 +2946,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.711Z"
+      "timestamp": "2026-07-30T11:51:42.645Z"
     },
     {
       "id": "TC_REG_008",
@@ -2957,7 +2957,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.712Z"
+      "timestamp": "2026-07-30T11:51:42.646Z"
     },
     {
       "id": "TC_REG_009",
@@ -2968,7 +2968,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.713Z"
+      "timestamp": "2026-07-30T11:51:42.646Z"
     },
     {
       "id": "TC_REG_010",
@@ -2979,7 +2979,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.714Z"
+      "timestamp": "2026-07-30T11:51:42.647Z"
     },
     {
       "id": "TC_REG_011",
@@ -2990,7 +2990,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.714Z"
+      "timestamp": "2026-07-30T11:51:42.648Z"
     },
     {
       "id": "TC_REG_012",
@@ -3001,7 +3001,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.715Z"
+      "timestamp": "2026-07-30T11:51:42.649Z"
     },
     {
       "id": "TC_REG_013",
@@ -3009,10 +3009,10 @@
       "name": "TC_REG_013 — Regression & Performance scenario 13",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.716Z"
+      "timestamp": "2026-07-30T11:51:42.650Z"
     },
     {
       "id": "TC_REG_014",
@@ -3023,7 +3023,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.716Z"
+      "timestamp": "2026-07-30T11:51:42.651Z"
     },
     {
       "id": "TC_REG_015",
@@ -3034,7 +3034,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.717Z"
+      "timestamp": "2026-07-30T11:51:42.652Z"
     },
     {
       "id": "TC_REG_016",
@@ -3045,7 +3045,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.718Z"
+      "timestamp": "2026-07-30T11:51:42.653Z"
     },
     {
       "id": "TC_REG_017",
@@ -3056,7 +3056,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.719Z"
+      "timestamp": "2026-07-30T11:51:42.654Z"
     },
     {
       "id": "TC_REG_018",
@@ -3067,7 +3067,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.720Z"
+      "timestamp": "2026-07-30T11:51:42.655Z"
     },
     {
       "id": "TC_REG_019",
@@ -3078,7 +3078,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.720Z"
+      "timestamp": "2026-07-30T11:51:42.655Z"
     },
     {
       "id": "TC_REG_020",
@@ -3089,7 +3089,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.721Z"
+      "timestamp": "2026-07-30T11:51:42.656Z"
     },
     {
       "id": "TC_REG_021",
@@ -3100,7 +3100,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.722Z"
+      "timestamp": "2026-07-30T11:51:42.658Z"
     },
     {
       "id": "TC_REG_022",
@@ -3111,7 +3111,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.723Z"
+      "timestamp": "2026-07-30T11:51:42.659Z"
     },
     {
       "id": "TC_REG_023",
@@ -3122,7 +3122,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.723Z"
+      "timestamp": "2026-07-30T11:51:42.660Z"
     },
     {
       "id": "TC_REG_024",
@@ -3133,7 +3133,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.724Z"
+      "timestamp": "2026-07-30T11:51:42.661Z"
     },
     {
       "id": "TC_REG_025",
@@ -3144,7 +3144,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.725Z"
+      "timestamp": "2026-07-30T11:51:42.662Z"
     },
     {
       "id": "TC_REG_026",
@@ -3155,7 +3155,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.726Z"
+      "timestamp": "2026-07-30T11:51:42.662Z"
     },
     {
       "id": "TC_REG_027",
@@ -3166,7 +3166,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.727Z"
+      "timestamp": "2026-07-30T11:51:42.663Z"
     },
     {
       "id": "TC_REG_028",
@@ -3177,7 +3177,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.727Z"
+      "timestamp": "2026-07-30T11:51:42.665Z"
     },
     {
       "id": "TC_REG_029",
@@ -3188,7 +3188,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.728Z"
+      "timestamp": "2026-07-30T11:51:42.665Z"
     },
     {
       "id": "TC_REG_030",
@@ -3199,7 +3199,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.729Z"
+      "timestamp": "2026-07-30T11:51:42.667Z"
     },
     {
       "id": "TC_REG_031",
@@ -3210,7 +3210,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.729Z"
+      "timestamp": "2026-07-30T11:51:42.668Z"
     },
     {
       "id": "TC_REG_032",
@@ -3221,7 +3221,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.730Z"
+      "timestamp": "2026-07-30T11:51:42.669Z"
     },
     {
       "id": "TC_REG_033",
@@ -3232,7 +3232,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.731Z"
+      "timestamp": "2026-07-30T11:51:42.669Z"
     },
     {
       "id": "TC_REG_034",
@@ -3243,7 +3243,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.732Z"
+      "timestamp": "2026-07-30T11:51:42.670Z"
     },
     {
       "id": "TC_REG_035",
@@ -3254,7 +3254,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.732Z"
+      "timestamp": "2026-07-30T11:51:42.671Z"
     },
     {
       "id": "TC_REG_036",
@@ -3265,7 +3265,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.733Z"
+      "timestamp": "2026-07-30T11:51:42.673Z"
     },
     {
       "id": "TC_REG_037",
@@ -3276,7 +3276,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.734Z"
+      "timestamp": "2026-07-30T11:51:42.675Z"
     },
     {
       "id": "TC_REG_038",
@@ -3287,7 +3287,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.735Z"
+      "timestamp": "2026-07-30T11:51:42.676Z"
     },
     {
       "id": "TC_REG_039",
@@ -3298,7 +3298,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.735Z"
+      "timestamp": "2026-07-30T11:51:42.677Z"
     },
     {
       "id": "TC_REG_040",
@@ -3309,7 +3309,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.736Z"
+      "timestamp": "2026-07-30T11:51:42.678Z"
     },
     {
       "id": "TC_REG_041",
@@ -3320,7 +3320,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.737Z"
+      "timestamp": "2026-07-30T11:51:42.680Z"
     },
     {
       "id": "TC_REG_042",
@@ -3331,7 +3331,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.738Z"
+      "timestamp": "2026-07-30T11:51:42.682Z"
     },
     {
       "id": "TC_REG_043",
@@ -3342,7 +3342,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.738Z"
+      "timestamp": "2026-07-30T11:51:42.682Z"
     },
     {
       "id": "TC_REG_044",
@@ -3353,7 +3353,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.740Z"
+      "timestamp": "2026-07-30T11:51:42.683Z"
     },
     {
       "id": "TC_REG_045",
@@ -3364,7 +3364,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.742Z"
+      "timestamp": "2026-07-30T11:51:42.684Z"
     },
     {
       "id": "TC_REG_046",
@@ -3372,10 +3372,10 @@
       "name": "TC_REG_046 — Regression & Performance scenario 46",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.743Z"
+      "timestamp": "2026-07-30T11:51:42.686Z"
     },
     {
       "id": "TC_REG_047",
@@ -3386,7 +3386,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.743Z"
+      "timestamp": "2026-07-30T11:51:42.687Z"
     },
     {
       "id": "TC_REG_048",
@@ -3397,7 +3397,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.744Z"
+      "timestamp": "2026-07-30T11:51:42.688Z"
     },
     {
       "id": "TC_REG_049",
@@ -3408,7 +3408,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.745Z"
+      "timestamp": "2026-07-30T11:51:42.689Z"
     },
     {
       "id": "TC_REG_050",
@@ -3416,10 +3416,10 @@
       "name": "TC_REG_050 — Regression & Performance scenario 50",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.746Z"
+      "timestamp": "2026-07-30T11:51:42.691Z"
     },
     {
       "id": "TC_REG_051",
@@ -3430,7 +3430,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.746Z"
+      "timestamp": "2026-07-30T11:51:42.692Z"
     },
     {
       "id": "TC_REG_052",
@@ -3441,7 +3441,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.747Z"
+      "timestamp": "2026-07-30T11:51:42.693Z"
     },
     {
       "id": "TC_REG_053",
@@ -3452,7 +3452,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.748Z"
+      "timestamp": "2026-07-30T11:51:42.694Z"
     },
     {
       "id": "TC_REG_054",
@@ -3463,7 +3463,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.749Z"
+      "timestamp": "2026-07-30T11:51:42.695Z"
     },
     {
       "id": "TC_REG_055",
@@ -3474,7 +3474,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.750Z"
+      "timestamp": "2026-07-30T11:51:42.696Z"
     },
     {
       "id": "TC_REG_056",
@@ -3485,7 +3485,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.750Z"
+      "timestamp": "2026-07-30T11:51:42.697Z"
     },
     {
       "id": "TC_REG_057",
@@ -3496,7 +3496,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.751Z"
+      "timestamp": "2026-07-30T11:51:42.699Z"
     },
     {
       "id": "TC_REG_058",
@@ -3507,7 +3507,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.752Z"
+      "timestamp": "2026-07-30T11:51:42.700Z"
     },
     {
       "id": "TC_REG_059",
@@ -3518,7 +3518,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.753Z"
+      "timestamp": "2026-07-30T11:51:42.701Z"
     },
     {
       "id": "TC_REG_060",
@@ -3529,7 +3529,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.754Z"
+      "timestamp": "2026-07-30T11:51:42.702Z"
     },
     {
       "id": "TC_REG_061",
@@ -3540,7 +3540,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.754Z"
+      "timestamp": "2026-07-30T11:51:42.704Z"
     },
     {
       "id": "TC_REG_062",
@@ -3551,7 +3551,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.755Z"
+      "timestamp": "2026-07-30T11:51:42.705Z"
     },
     {
       "id": "TC_REG_063",
@@ -3562,7 +3562,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.756Z"
+      "timestamp": "2026-07-30T11:51:42.706Z"
     },
     {
       "id": "TC_REG_064",
@@ -3573,7 +3573,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.757Z"
+      "timestamp": "2026-07-30T11:51:42.707Z"
     },
     {
       "id": "TC_REG_065",
@@ -3584,7 +3584,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.757Z"
+      "timestamp": "2026-07-30T11:51:42.708Z"
     },
     {
       "id": "TC_REG_066",
@@ -3592,10 +3592,10 @@
       "name": "TC_REG_066 — Regression & Performance scenario 66",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.758Z"
+      "timestamp": "2026-07-30T11:51:42.709Z"
     },
     {
       "id": "TC_REG_067",
@@ -3606,7 +3606,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.759Z"
+      "timestamp": "2026-07-30T11:51:42.710Z"
     },
     {
       "id": "TC_REG_068",
@@ -3617,7 +3617,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.760Z"
+      "timestamp": "2026-07-30T11:51:42.711Z"
     },
     {
       "id": "TC_REG_069",
@@ -3628,7 +3628,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.761Z"
+      "timestamp": "2026-07-30T11:51:42.714Z"
     },
     {
       "id": "TC_REG_070",
@@ -3639,7 +3639,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.762Z"
+      "timestamp": "2026-07-30T11:51:42.715Z"
     },
     {
       "id": "TC_REG_071",
@@ -3650,7 +3650,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.763Z"
+      "timestamp": "2026-07-30T11:51:42.716Z"
     },
     {
       "id": "TC_REG_072",
@@ -3661,7 +3661,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.764Z"
+      "timestamp": "2026-07-30T11:51:42.717Z"
     },
     {
       "id": "TC_REG_073",
@@ -3672,7 +3672,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.765Z"
+      "timestamp": "2026-07-30T11:51:42.718Z"
     },
     {
       "id": "TC_REG_074",
@@ -3683,7 +3683,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.766Z"
+      "timestamp": "2026-07-30T11:51:42.719Z"
     },
     {
       "id": "TC_REG_075",
@@ -3691,10 +3691,10 @@
       "name": "TC_REG_075 — Regression & Performance scenario 75",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.767Z"
+      "timestamp": "2026-07-30T11:51:42.721Z"
     },
     {
       "id": "TC_REG_076",
@@ -3705,7 +3705,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.769Z"
+      "timestamp": "2026-07-30T11:51:42.722Z"
     },
     {
       "id": "TC_REG_077",
@@ -3716,7 +3716,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.769Z"
+      "timestamp": "2026-07-30T11:51:42.723Z"
     },
     {
       "id": "TC_REG_078",
@@ -3727,7 +3727,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.770Z"
+      "timestamp": "2026-07-30T11:51:42.724Z"
     },
     {
       "id": "TC_REG_079",
@@ -3738,7 +3738,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.771Z"
+      "timestamp": "2026-07-30T11:51:42.725Z"
     },
     {
       "id": "TC_REG_080",
@@ -3749,7 +3749,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.772Z"
+      "timestamp": "2026-07-30T11:51:42.726Z"
     },
     {
       "id": "TC_REG_081",
@@ -3760,7 +3760,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.773Z"
+      "timestamp": "2026-07-30T11:51:42.727Z"
     },
     {
       "id": "TC_REG_082",
@@ -3771,7 +3771,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.773Z"
+      "timestamp": "2026-07-30T11:51:42.729Z"
     },
     {
       "id": "TC_REG_083",
@@ -3782,7 +3782,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.774Z"
+      "timestamp": "2026-07-30T11:51:42.730Z"
     },
     {
       "id": "TC_REG_084",
@@ -3790,10 +3790,10 @@
       "name": "TC_REG_084 — Regression & Performance scenario 84",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.775Z"
+      "timestamp": "2026-07-30T11:51:42.731Z"
     },
     {
       "id": "TC_REG_085",
@@ -3804,7 +3804,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.776Z"
+      "timestamp": "2026-07-30T11:51:42.732Z"
     },
     {
       "id": "TC_REG_086",
@@ -3812,10 +3812,10 @@
       "name": "TC_REG_086 — Regression & Performance scenario 86",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.777Z"
+      "timestamp": "2026-07-30T11:51:42.733Z"
     },
     {
       "id": "TC_REG_087",
@@ -3826,7 +3826,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.777Z"
+      "timestamp": "2026-07-30T11:51:42.734Z"
     },
     {
       "id": "TC_REG_088",
@@ -3837,7 +3837,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.778Z"
+      "timestamp": "2026-07-30T11:51:42.735Z"
     },
     {
       "id": "TC_REG_089",
@@ -3848,7 +3848,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.779Z"
+      "timestamp": "2026-07-30T11:51:42.736Z"
     },
     {
       "id": "TC_REG_090",
@@ -3859,7 +3859,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.780Z"
+      "timestamp": "2026-07-30T11:51:42.737Z"
     },
     {
       "id": "TC_REG_091",
@@ -3870,7 +3870,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.781Z"
+      "timestamp": "2026-07-30T11:51:42.738Z"
     },
     {
       "id": "TC_REG_092",
@@ -3881,7 +3881,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.781Z"
+      "timestamp": "2026-07-30T11:51:42.739Z"
     },
     {
       "id": "TC_REG_093",
@@ -3892,7 +3892,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.782Z"
+      "timestamp": "2026-07-30T11:51:42.740Z"
     },
     {
       "id": "TC_REG_094",
@@ -3903,7 +3903,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.783Z"
+      "timestamp": "2026-07-30T11:51:42.741Z"
     },
     {
       "id": "TC_REG_095",
@@ -3914,7 +3914,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.784Z"
+      "timestamp": "2026-07-30T11:51:42.743Z"
     },
     {
       "id": "TC_REG_096",
@@ -3925,7 +3925,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.785Z"
+      "timestamp": "2026-07-30T11:51:42.744Z"
     },
     {
       "id": "TC_REG_097",
@@ -3936,7 +3936,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.786Z"
+      "timestamp": "2026-07-30T11:51:42.745Z"
     },
     {
       "id": "TC_REG_098",
@@ -3947,7 +3947,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.786Z"
+      "timestamp": "2026-07-30T11:51:42.746Z"
     },
     {
       "id": "TC_REG_099",
@@ -3958,7 +3958,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.787Z"
+      "timestamp": "2026-07-30T11:51:42.747Z"
     },
     {
       "id": "TC_REG_100",
@@ -3969,7 +3969,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.788Z"
+      "timestamp": "2026-07-30T11:51:42.748Z"
     },
     {
       "id": "TC_REG_101",
@@ -3980,7 +3980,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.789Z"
+      "timestamp": "2026-07-30T11:51:42.749Z"
     },
     {
       "id": "TC_REG_102",
@@ -3991,7 +3991,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.790Z"
+      "timestamp": "2026-07-30T11:51:42.750Z"
     },
     {
       "id": "TC_REG_103",
@@ -3999,10 +3999,10 @@
       "name": "TC_REG_103 — Regression & Performance scenario 103",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 1,
+      "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.791Z"
+      "timestamp": "2026-07-30T11:51:42.752Z"
     },
     {
       "id": "TC_REG_104",
@@ -4013,7 +4013,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.792Z"
+      "timestamp": "2026-07-30T11:51:42.753Z"
     },
     {
       "id": "TC_REG_105",
@@ -4024,7 +4024,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.794Z"
+      "timestamp": "2026-07-30T11:51:42.754Z"
     },
     {
       "id": "TC_REG_106",
@@ -4035,7 +4035,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.795Z"
+      "timestamp": "2026-07-30T11:51:42.755Z"
     },
     {
       "id": "TC_REG_107",
@@ -4046,7 +4046,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.796Z"
+      "timestamp": "2026-07-30T11:51:42.756Z"
     },
     {
       "id": "TC_REG_108",
@@ -4057,7 +4057,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.797Z"
+      "timestamp": "2026-07-30T11:51:42.757Z"
     },
     {
       "id": "TC_REG_109",
@@ -4068,7 +4068,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.798Z"
+      "timestamp": "2026-07-30T11:51:42.758Z"
     },
     {
       "id": "TC_REG_110",
@@ -4079,7 +4079,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.798Z"
+      "timestamp": "2026-07-30T11:51:42.760Z"
     },
     {
       "id": "TC_REG_111",
@@ -4090,7 +4090,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.799Z"
+      "timestamp": "2026-07-30T11:51:42.761Z"
     },
     {
       "id": "TC_REG_112",
@@ -4101,7 +4101,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.800Z"
+      "timestamp": "2026-07-30T11:51:42.762Z"
     },
     {
       "id": "TC_REG_113",
@@ -4112,7 +4112,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.801Z"
+      "timestamp": "2026-07-30T11:51:42.763Z"
     },
     {
       "id": "TC_REG_114",
@@ -4123,7 +4123,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.802Z"
+      "timestamp": "2026-07-30T11:51:42.765Z"
     },
     {
       "id": "TC_REG_115",
@@ -4134,7 +4134,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.803Z"
+      "timestamp": "2026-07-30T11:51:42.766Z"
     },
     {
       "id": "TC_REG_116",
@@ -4145,7 +4145,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.803Z"
+      "timestamp": "2026-07-30T11:51:42.767Z"
     },
     {
       "id": "TC_REG_117",
@@ -4156,7 +4156,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.804Z"
+      "timestamp": "2026-07-30T11:51:42.768Z"
     },
     {
       "id": "TC_REG_118",
@@ -4167,7 +4167,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.805Z"
+      "timestamp": "2026-07-30T11:51:42.769Z"
     },
     {
       "id": "TC_REG_119",
@@ -4178,7 +4178,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.806Z"
+      "timestamp": "2026-07-30T11:51:42.770Z"
     },
     {
       "id": "TC_REG_120",
@@ -4189,7 +4189,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.807Z"
+      "timestamp": "2026-07-30T11:51:42.771Z"
     },
     {
       "id": "TC_REG_121",
@@ -4200,7 +4200,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.808Z"
+      "timestamp": "2026-07-30T11:51:42.772Z"
     },
     {
       "id": "TC_REG_122",
@@ -4211,7 +4211,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.809Z"
+      "timestamp": "2026-07-30T11:51:42.773Z"
     },
     {
       "id": "TC_REG_123",
@@ -4222,7 +4222,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.810Z"
+      "timestamp": "2026-07-30T11:51:42.775Z"
     },
     {
       "id": "TC_REG_124",
@@ -4233,7 +4233,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.810Z"
+      "timestamp": "2026-07-30T11:51:42.777Z"
     },
     {
       "id": "TC_REG_125",
@@ -4244,7 +4244,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.811Z"
+      "timestamp": "2026-07-30T11:51:42.778Z"
     },
     {
       "id": "TC_REG_126",
@@ -4255,7 +4255,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.812Z"
+      "timestamp": "2026-07-30T11:51:42.779Z"
     },
     {
       "id": "TC_REG_127",
@@ -4266,7 +4266,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.813Z"
+      "timestamp": "2026-07-30T11:51:42.780Z"
     },
     {
       "id": "TC_REG_128",
@@ -4277,7 +4277,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.814Z"
+      "timestamp": "2026-07-30T11:51:42.782Z"
     },
     {
       "id": "TC_REG_129",
@@ -4288,7 +4288,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.815Z"
+      "timestamp": "2026-07-30T11:51:42.784Z"
     },
     {
       "id": "TC_REG_130",
@@ -4299,7 +4299,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.816Z"
+      "timestamp": "2026-07-30T11:51:42.786Z"
     },
     {
       "id": "TC_REG_131",
@@ -4307,10 +4307,10 @@
       "name": "TC_REG_131 — Regression & Performance scenario 131",
       "priority": "Medium",
       "status": "PASS",
-      "duration": 0,
+      "duration": 1,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.816Z"
+      "timestamp": "2026-07-30T11:51:42.787Z"
     },
     {
       "id": "TC_REG_132",
@@ -4321,7 +4321,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.817Z"
+      "timestamp": "2026-07-30T11:51:42.788Z"
     },
     {
       "id": "TC_REG_133",
@@ -4332,7 +4332,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.818Z"
+      "timestamp": "2026-07-30T11:51:42.788Z"
     },
     {
       "id": "TC_REG_134",
@@ -4343,7 +4343,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.819Z"
+      "timestamp": "2026-07-30T11:51:42.792Z"
     },
     {
       "id": "TC_REG_135",
@@ -4354,7 +4354,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.820Z"
+      "timestamp": "2026-07-30T11:51:42.793Z"
     },
     {
       "id": "TC_REG_136",
@@ -4365,7 +4365,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.821Z"
+      "timestamp": "2026-07-30T11:51:42.794Z"
     },
     {
       "id": "TC_REG_137",
@@ -4376,7 +4376,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.822Z"
+      "timestamp": "2026-07-30T11:51:42.796Z"
     },
     {
       "id": "TC_REG_138",
@@ -4387,7 +4387,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.822Z"
+      "timestamp": "2026-07-30T11:51:42.797Z"
     },
     {
       "id": "TC_REG_139",
@@ -4398,7 +4398,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.823Z"
+      "timestamp": "2026-07-30T11:51:42.799Z"
     },
     {
       "id": "TC_REG_140",
@@ -4409,7 +4409,7 @@
       "duration": 0,
       "error": null,
       "screenshot": null,
-      "timestamp": "2026-07-30T03:08:21.824Z"
+      "timestamp": "2026-07-30T11:51:42.800Z"
     }
   ]
 }
